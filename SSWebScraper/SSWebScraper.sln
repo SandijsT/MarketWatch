@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.31919.166
+VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSWebScraper", "SSWebScraper\SSWebScraper.csproj", "{65963A7B-BF59-46DE-B67E-71F69FB9ABEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SSWebScraper", "SSWebScraper\SSWebScraper.csproj", "{65963A7B-BF59-46DE-B67E-71F69FB9ABEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallScheduler", "CallScheduler\CallScheduler.csproj", "{50FEC8C8-27A6-4CD1-9B58-A1522DCC1112}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{65963A7B-BF59-46DE-B67E-71F69FB9ABEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65963A7B-BF59-46DE-B67E-71F69FB9ABEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65963A7B-BF59-46DE-B67E-71F69FB9ABEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50FEC8C8-27A6-4CD1-9B58-A1522DCC1112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50FEC8C8-27A6-4CD1-9B58-A1522DCC1112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50FEC8C8-27A6-4CD1-9B58-A1522DCC1112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50FEC8C8-27A6-4CD1-9B58-A1522DCC1112}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

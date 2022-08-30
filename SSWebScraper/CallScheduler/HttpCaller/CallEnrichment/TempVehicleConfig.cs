@@ -1,8 +1,15 @@
 ﻿namespace SSWebScraper.ScraperService
 {
-    public class TempVehicleConfig
+    public static class TempVehicleConfig
     {
-        string alfaRomeo = "alfa-romeo";
+        public static string[] GetConfig()
+        {
+            string[] vehicleTypes = {"alfa-romeo", "audi", "bmw", "chevrolet", "chrysler", "citroen", "dacia", "dodge", "fiat", "ford", "honda",
+            "hyundai", "infiniti", "jaguar", "jeep", "kia", "lancia", "land-rover", "lexus", "mazda", "mercedes", "mini", "mitsubishi", "nissan",
+            "opel", "peugeot", "porsche", "renault", "saab", "seat", "skoda", "smart", "subaru", "suzuki", "toyota", "volkswagen", "volvo", "gaz", "vaz", "others" };
+            return vehicleTypes;
+        }
+        /*string alfaRomeo = "alfa-romeo";
         string audi = "audi";
         string bmw = "bmw";
         string chevrolet = "chevrolet";
@@ -41,6 +48,6 @@
         string volvo = "volvo";
         string gaz = "gaz";
         string vaz = "vaz";
-        string others = "others";
+        string others = "others";*/
     }
 }

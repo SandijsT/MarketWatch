@@ -4,9 +4,6 @@ using SSWebScraper.DB;
 using SSWebScraper.Models;
 using SSWebScraper.ScraperService;
 using System.Globalization;
-using System.Linq;
-using System.Net;
-using System.Xml.Linq;
 
 namespace SSWebScraper.Controllers
 {
@@ -24,13 +21,12 @@ namespace SSWebScraper.Controllers
         }
 
         [HttpPost]
-        [Route("CreatePosts/{type}")]
-        public async Task<ActionResult> CreatePosts(string type)
+        [Route("CreatePosts")]
+        public async Task<ActionResult> CreatePosts([FromBody] CallerRequest callerRequest)
         {
             try
             {
-                var category = "cars";
-                var url = "https://www.ss.lv/lv/transport/" + category + "/" + type;
+                var url = "https://www.ss.lv/lv/transport/" + callerRequest.Category + "/" + callerRequest.Make;
                 var response = CallUrl(url).Result;
 
                 if (response == null)
@@ -67,8 +63,8 @@ namespace SSWebScraper.Controllers
                       {
                           Link = processedPost.Link,
                           Price = processedPost.Price,
-                          Type = type,
-                          Category = category,
+                          Type = callerRequest.Make,
+                          Category = callerRequest.Category,
                           SavedDate = DateTime.Now,
                           PublishedDate = DateTime.Now
                       };
@@ -87,7 +83,7 @@ namespace SSWebScraper.Controllers
                       postObjects.Add(vehicleObject);
                   });
 
-                _dbContext.VehicleMatrices.RemoveRange(_dbContext.VehicleMatrices.Where(x => x.Make == type));
+                _dbContext.VehicleMatrices.RemoveRange(_dbContext.VehicleMatrices.Where(x => x.Make == callerRequest.Make));
 
                 foreach (VehicleObject postObject in postObjects)
                 {
@@ -96,7 +92,14 @@ namespace SSWebScraper.Controllers
 
                 await _dbContext.SaveChangesAsync();
 
-                return Ok(postObjects);
+                var callerResponse = new CallerResponse
+                {
+                    Category = callerRequest.Category,
+                    Make = callerRequest.Make,
+                    PostsSaved = postObjects.Count
+                };
+
+                return Ok(callerResponse);
             }
             catch (Exception ex)
             {
