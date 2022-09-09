@@ -12,7 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // For Entity Framework
-builder.Services.AddDbContext<MyDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("ConnStr")));
+builder.Services.AddDbContext<resourceContext>(options => options.UseSqlServer(configuration.GetConnectionString("ConnStr")));
 
 var app = builder.Build();
 

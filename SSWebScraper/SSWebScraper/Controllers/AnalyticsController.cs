@@ -12,11 +12,11 @@ namespace SSWebScraper.Controllers
     public class AnalyticsController : ControllerBase
     {
         readonly CultureInfo culture = new("en-US");
-        private readonly MyDbContext _dbContext;
+        private readonly resourceContext _resourceContext;
         private readonly IConfiguration _configuration;
-        public AnalyticsController(MyDbContext context, IConfiguration configuration)
+        public AnalyticsController(resourceContext context, IConfiguration configuration)
         {
-            _dbContext = context;
+            _resourceContext = context;
             _configuration = configuration;
         }
 
@@ -39,14 +39,14 @@ namespace SSWebScraper.Controllers
 
                 foreach (var postLink in postLinks)
                 {
-                    if (!_dbContext.VehicleMatrices.Any(x => x.Link == postLink))
+                    if (!_resourceContext.Vehicles.Any(x => x.Link == postLink))
                     {
                         nonSavedPosts.Add(postLink);
                     }
                 }
 
                 var urlAddress = string.Empty;
-                List<VehicleObject> postObjects = new();
+                List<Vehicle> postObjects = new();
                 _ = int.TryParse(_configuration["ParallelTasksCount"], out int parallelTasksCount);
 
                 _ = Parallel.ForEach(nonSavedPosts, new ParallelOptions { MaxDegreeOfParallelism = parallelTasksCount }, post =>
@@ -57,40 +57,20 @@ namespace SSWebScraper.Controllers
 
                       var postHTML = GetHTML(response);
                       var processedPost = ParsePost(postHTML, post);
-                      var attributes = processedPost.Attributes;
 
-                      VehicleObject vehicleObject = new()
-                      {
-                          Link = processedPost.Link,
-                          Price = processedPost.Price,
-                          Type = callerRequest.Make,
-                          Category = callerRequest.Category,
-                          SavedDate = DateTime.Now,
-                          PublishedDate = DateTime.Now
-                      };
-                      if (vehicleObject.Price != "ELSE")
-                      {
-                          vehicleObject.Make = attributes.GetValueOrDefault("Marka ");
-                          vehicleObject.ReleaseDate = attributes.GetValueOrDefault("Izlaiduma gads:");
-                          vehicleObject.EngineDisplacement = attributes.GetValueOrDefault("Motors:");
-                          vehicleObject.Transmission = attributes.GetValueOrDefault("Ātr.kārba:");
-                          vehicleObject.Mileage = attributes.GetValueOrDefault("Nobraukums, km:");
-                          vehicleObject.Color = attributes.GetValueOrDefault("Krāsa:");
-                          vehicleObject.BodyType = attributes.GetValueOrDefault("Virsbūves tips:");
-                          vehicleObject.TIEndDate = attributes.GetValueOrDefault("Tehniskā apskate:");
-                      }
+                      var vehicleObject = PostMap.MapPost(processedPost, callerRequest);
 
                       postObjects.Add(vehicleObject);
                   });
 
-                _dbContext.VehicleMatrices.RemoveRange(_dbContext.VehicleMatrices.Where(x => x.Make == callerRequest.Make));
+                _resourceContext.Vehicles.RemoveRange(_resourceContext.Vehicles.Where(x => x.ModelId == null /*callerRequest.Make*/));
 
-                foreach (VehicleObject postObject in postObjects)
+                foreach (Vehicle postObject in postObjects)
                 {
-                    await _dbContext.VehicleMatrices.AddAsync(postObject);
+                    await _resourceContext.Vehicles.AddAsync(postObject);
                 }
 
-                await _dbContext.SaveChangesAsync();
+                await _resourceContext.SaveChangesAsync();
 
                 var callerResponse = new CallerResponse
                 {
