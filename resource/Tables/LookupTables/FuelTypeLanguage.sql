@@ -1,6 +1,5 @@
-﻿CREATE TABLE [dbo].[FuelTypeLanguage]
-(
-	[FuelTypeId]       INT           NOT NULL,
+﻿CREATE TABLE [dbo].[FuelTypeLanguage] (
+    [FuelTypeId]       INT           NOT NULL,
     [LanguageId]       INT           NOT NULL,
     [Description]      VARCHAR (255) NOT NULL,
     [DisplayOrder]     INT           NOT NULL,
