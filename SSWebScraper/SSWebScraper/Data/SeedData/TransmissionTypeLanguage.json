@@ -1,0 +1,122 @@
+[
+ {
+   "TransmissionTypeId": 1,
+   "LanguageId": 1,
+   "Description": "Nezinams",
+   "DisplayOrder": 1
+ },
+ {
+   "TransmissionTypeId": 10,
+   "LanguageId": 1,
+   "Description": "Manuala",
+   "DisplayOrder": 1
+ },
+ {
+   "TransmissionTypeId": 12,
+   "LanguageId": 1,
+   "Description": "Manuala 2 atrumi",
+   "DisplayOrder": 1
+ },
+ {
+   "TransmissionTypeId": 13,
+   "LanguageId": 1,
+   "Description": "Manuala 3 atrumi",
+   "DisplayOrder": 1
+ },
+ {
+   "TransmissionTypeId": 14,
+   "LanguageId": 1,
+   "Description": "Manuala 4 atrumi",
+   "DisplayOrder": 1
+ },
+ {
+   "TransmissionTypeId": 15,
+   "LanguageId": 1,
+   "Description": "Manuala 5 atrumi",
+   "DisplayOrder": 1
+ },
+ {
+   "TransmissionTypeId": 16,
+   "LanguageId": 1,
+   "Description": "Manuala 6 atrumi",
+   "DisplayOrder": 1
+ },
+ {
+   "TransmissionTypeId": 17,
+   "LanguageId": 1,
+   "Description": "Manuala 7 atrumi",
+   "DisplayOrder": 1
+ },
+ {
+   "TransmissionTypeId": 18,
+   "LanguageId": 1,
+   "Description": "Manuala 8 atrumi",
+   "DisplayOrder": 1
+ },
+ {
+   "TransmissionTypeId": 19,
+   "LanguageId": 1,
+   "Description": "Manuala 9 atrumi",
+   "DisplayOrder": 1
+ },
+ {
+   "TransmissionTypeId": 20,
+   "LanguageId": 1,
+   "Description": "Automats",
+   "DisplayOrder": 1
+ },
+ {
+   "TransmissionTypeId": 21,
+   "LanguageId": 1,
+   "Description": "Automats 1 atrumi",
+   "DisplayOrder": 1
+ },
+ {
+   "TransmissionTypeId": 22,
+   "LanguageId": 1,
+   "Description": "Automats 2 atrumi",
+   "DisplayOrder": 1
+ },
+ {
+   "TransmissionTypeId": 23,
+   "LanguageId": 1,
+   "Description": "Automats 3 atrumi",
+   "DisplayOrder": 1
+ },
+ {
+   "TransmissionTypeId": 24,
+   "LanguageId": 1,
+   "Description": "Automats 4 atrumi",
+   "DisplayOrder": 1
+ },
+ {
+   "TransmissionTypeId": 25,
+   "LanguageId": 1,
+   "Description": "Automats 5 atrumi",
+   "DisplayOrder": 1
+ },
+ {
+   "TransmissionTypeId": 26,
+   "LanguageId": 1,
+   "Description": "Automats 6 atrumi",
+   "DisplayOrder": 1
+ },
+ {
+   "TransmissionTypeId": 27,
+   "LanguageId": 1,
+   "Description": "Automats 7 atrumi",
+   "DisplayOrder": 1
+ },
+ {
+   "TransmissionTypeId": 28,
+   "LanguageId": 1,
+   "Description": "Automats 8 atrumi",
+   "DisplayOrder": 1
+ },
+ {
+   "TransmissionTypeId": 29,
+   "LanguageId": 1,
+   "Description": "Automats 9 atrumi",
+   "DisplayOrder": 1
+ }
+]

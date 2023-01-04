@@ -1,0 +1,42 @@
+[
+ {
+   "BodyTypeId": 1,
+   "BodyType": "-"
+ },
+ {
+   "BodyTypeId": 2,
+   "BodyType": "Apvidus"
+ },
+ {
+   "BodyTypeId": 3,
+   "BodyType": "Hečbeks"
+ },
+ {
+   "BodyTypeId": 4,
+   "BodyType": "Kabriolets"
+ },
+ {
+   "BodyTypeId": 5,
+   "BodyType": "Kupeja"
+ },
+ {
+   "BodyTypeId": 6,
+   "BodyType": "Mikroautobuss"
+ },
+ {
+   "BodyTypeId": 7,
+   "BodyType": "Minivens"
+ },
+ {
+   "BodyTypeId": 8,
+   "BodyType": "Pikaps"
+ },
+ {
+   "BodyTypeId": 9,
+   "BodyType": "Sedans"
+ },
+ {
+   "BodyTypeId": 10,
+   "BodyType": "Universāls"
+ }
+]

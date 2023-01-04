@@ -8,8 +8,8 @@ namespace CallScheduler.HttpCaller.Requests
 {
     internal class VehicleResponse
     {
-        public string Category { get; set; }
-        public string Make { get; set; }
+        public string? Category { get; set; }
+        public string? Make { get; set; }
         public int PostsSaved { get; set; }
     }
 }

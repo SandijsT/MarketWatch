@@ -1,0 +1,38 @@
+[
+ {
+   "FuelTypeId": 1,
+   "LanguageId": 1,
+   "Description": "Nezināms",
+   "DisplayOrder": 1
+ },
+ {
+   "FuelTypeId": 2,
+   "LanguageId": 1,
+   "Description": "benzīns",
+   "DisplayOrder": 1
+ },
+ {
+   "FuelTypeId": 3,
+   "LanguageId": 1,
+   "Description": "benzīns/gāze",
+   "DisplayOrder": 1
+ },
+ {
+   "FuelTypeId": 4,
+   "LanguageId": 1,
+   "Description": "dīzelis",
+   "DisplayOrder": 1
+ },
+ {
+   "FuelTypeId": 5,
+   "LanguageId": 1,
+   "Description": "hybrid",
+   "DisplayOrder": 1
+ },
+ {
+   "FuelTypeId": 6,
+   "LanguageId": 1,
+   "Description": "elektriskais",
+   "DisplayOrder": 1
+ }
+]

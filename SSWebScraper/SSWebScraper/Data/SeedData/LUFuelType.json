@@ -1,0 +1,26 @@
+[
+ {
+   "FuelTypeId": 1,
+   "FuelType": "Nezināms"
+ },
+ {
+   "FuelTypeId": 2,
+   "FuelType": "benzīns"
+ },
+ {
+   "FuelTypeId": 3,
+   "FuelType": "benzīns/gāze"
+ },
+ {
+   "FuelTypeId": 4,
+   "FuelType": "dīzelis"
+ },
+ {
+   "FuelTypeId": 5,
+   "FuelType": "hybrid"
+ },
+ {
+   "FuelTypeId": 6,
+   "FuelType": "elektriskais"
+ }
+]

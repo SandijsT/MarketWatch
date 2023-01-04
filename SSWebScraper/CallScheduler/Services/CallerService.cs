@@ -1,4 +1,5 @@
 ﻿using CallScheduler.HttpCaller.CallEnrichment;
+using System;
 
 namespace CallScheduler.Services
 {
@@ -11,12 +12,12 @@ namespace CallScheduler.Services
             _logger = logger;
         }
 
-        public async Task DoSomethingAsync()
+        public async Task CallServiceAsync()
         {
             await Task.Delay(900000);
             CallEnrichment.EnrichCall().GetAwaiter().GetResult();
             _logger.LogInformation(
-                "Sample Service did something.");
+                "Service called " + DateTime.Now.ToString());
         }
     }
 }

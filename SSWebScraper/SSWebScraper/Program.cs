@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using SSWebScraper.DB;
+using SSWebScraper.Data;
+using SSWebScraper.Contexts;
 
 var builder = WebApplication.CreateBuilder(args);
 ConfigurationManager configuration = builder.Configuration;
@@ -27,4 +28,20 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();
+// For Data Seeding
+using var scope = app.Services.CreateScope();
+var services = scope.ServiceProvider;
+var loggerFactory = services.GetRequiredService<ILoggerFactory>();
+try
+{
+    var resourcecontext = services.GetRequiredService<resourceContext>();
+    await resourcecontext.Database.MigrateAsync();
+    await ResourceContextSeed.SeedAsync(resourcecontext, loggerFactory);
+}
+catch (Exception ex)
+{
+    var logger = loggerFactory.CreateLogger<Program>();
+    logger.LogError(ex, "An error occurred during migration");
+}
+
+await app.RunAsync();

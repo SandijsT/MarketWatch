@@ -28,8 +28,8 @@ namespace CallScheduler
                 try
                 {
                     await using AsyncServiceScope asyncScope = _factory.CreateAsyncScope();
-                    CallerService sampleService = asyncScope.ServiceProvider.GetRequiredService<CallerService>();
-                    await sampleService.DoSomethingAsync();
+                    CallerService callerService = asyncScope.ServiceProvider.GetRequiredService<CallerService>();
+                    await callerService.CallServiceAsync();
                     _executionCount++;
                     _logger.LogInformation(
                         $"Executed PeriodicHostedService - Count: {_executionCount}");
@@ -37,7 +37,7 @@ namespace CallScheduler
                 catch (Exception ex)
                 {
                     _logger.LogInformation(
-                        $"Failed to execute PeriodicHostedService with exception message {ex.Message}. Good luck next round!");
+                        $"Failed to execute PeriodicHostedService with exception message {ex.Message}.");
                 }
             }
         }

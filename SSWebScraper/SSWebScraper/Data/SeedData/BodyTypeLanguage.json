@@ -1,0 +1,62 @@
+[
+ {
+   "BodyTypeId": 1,
+   "LanguageId": 1,
+   "Description": "-",
+   "DisplayOrder": 1
+ },
+ {
+   "BodyTypeId": 2,
+   "LanguageId": 1,
+   "Description": "Apvidus",
+   "DisplayOrder": 1
+ },
+ {
+   "BodyTypeId": 3,
+   "LanguageId": 1,
+   "Description": "Hečbeks",
+   "DisplayOrder": 1
+ },
+ {
+   "BodyTypeId": 4,
+   "LanguageId": 1,
+   "Description": "Kabriolets",
+   "DisplayOrder": 1
+ },
+ {
+   "BodyTypeId": 5,
+   "LanguageId": 1,
+   "Description": "Kupeja",
+   "DisplayOrder": 1
+ },
+ {
+   "BodyTypeId": 6,
+   "LanguageId": 1,
+   "Description": "Mikroautobuss",
+   "DisplayOrder": 1
+ },
+ {
+   "BodyTypeId": 7,
+   "LanguageId": 1,
+   "Description": "Minivens",
+   "DisplayOrder": 1
+ },
+ {
+   "BodyTypeId": 8,
+   "LanguageId": 1,
+   "Description": "Pikaps",
+   "DisplayOrder": 1
+ },
+ {
+   "BodyTypeId": 9,
+   "LanguageId": 1,
+   "Description": "Sedans",
+   "DisplayOrder": 1
+ },
+ {
+   "BodyTypeId": 10,
+   "LanguageId": 1,
+   "Description": "Universāls",
+   "DisplayOrder": 1
+ }
+]

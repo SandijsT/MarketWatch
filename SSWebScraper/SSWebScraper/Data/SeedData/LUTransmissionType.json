@@ -1,0 +1,102 @@
+[
+ {
+   "TransmissionTypeId": 1,
+   "TransmissionType": "Nezināms",
+   "GearCount": 0
+ },
+ {
+   "TransmissionTypeId": 10,
+   "TransmissionType": "Manuāla",
+   "GearCount": 0
+ },
+ {
+   "TransmissionTypeId": 12,
+   "TransmissionType": "Manuāla",
+   "GearCount": 2
+ },
+ {
+   "TransmissionTypeId": 13,
+   "TransmissionType": "Manuāla",
+   "GearCount": 3
+ },
+ {
+   "TransmissionTypeId": 14,
+   "TransmissionType": "Manuāla",
+   "GearCount": 4
+ },
+ {
+   "TransmissionTypeId": 15,
+   "TransmissionType": "Manuāla",
+   "GearCount": 5
+ },
+ {
+   "TransmissionTypeId": 16,
+   "TransmissionType": "Manuāla",
+   "GearCount": 6
+ },
+ {
+   "TransmissionTypeId": 17,
+   "TransmissionType": "Manuāla",
+   "GearCount": 7
+ },
+ {
+   "TransmissionTypeId": 18,
+   "TransmissionType": "Manuāla",
+   "GearCount": 8
+ },
+ {
+   "TransmissionTypeId": 19,
+   "TransmissionType": "Manuāla",
+   "GearCount": 9
+ },
+ {
+   "TransmissionTypeId": 20,
+   "TransmissionType": "Automāts",
+   "GearCount": 0
+ },
+ {
+   "TransmissionTypeId": 21,
+   "TransmissionType": "Automāts",
+   "GearCount": 1
+ },
+ {
+   "TransmissionTypeId": 22,
+   "TransmissionType": "Automāts",
+   "GearCount": 2
+ },
+ {
+   "TransmissionTypeId": 23,
+   "TransmissionType": "Automāts",
+   "GearCount": 3
+ },
+ {
+   "TransmissionTypeId": 24,
+   "TransmissionType": "Automāts",
+   "GearCount": 4
+ },
+ {
+   "TransmissionTypeId": 25,
+   "TransmissionType": "Automāts",
+   "GearCount": 5
+ },
+ {
+   "TransmissionTypeId": 26,
+   "TransmissionType": "Automāts",
+   "GearCount": 6
+ },
+ {
+   "TransmissionTypeId": 27,
+   "TransmissionType": "Automāts",
+   "GearCount": 7
+ },
+ {
+   "TransmissionTypeId": 28,
+   "TransmissionType": "Automāts",
+   "GearCount": 8
+ },
+ {
+   "TransmissionTypeId": 29,
+   "TransmissionType": "Automāts",
+   "GearCount": 9
+ }
+]

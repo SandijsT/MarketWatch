@@ -1,0 +1,654 @@
+﻿ModelId,Model,Manufacturer
+1,Nezinams,Nezinams
+2,116,Bmw
+3,118,Bmw
+4,120,Bmw
+5,135,Bmw
+6,216,Bmw
+7,218,Bmw
+8,220,Bmw
+9,225,Bmw
+10,228,Bmw
+11,316,Bmw
+12,318,Bmw
+13,320,Bmw
+14,323,Bmw
+15,324,Bmw
+16,325,Bmw
+17,328,Bmw
+18,330,Bmw
+19,335,Bmw
+20,340,Bmw
+21,420,Bmw
+22,425,Bmw
+23,430,Bmw
+24,435,Bmw
+25,520,Bmw
+26,523,Bmw
+27,525,Bmw
+28,528,Bmw
+29,530,Bmw
+30,535,Bmw
+31,540,Bmw
+32,545,Bmw
+33,550,Bmw
+34,630,Bmw
+35,635,Bmw
+36,640,Bmw
+37,645,Bmw
+38,650,Bmw
+39,725,Bmw
+40,728,Bmw
+41,730,Bmw
+42,732,Bmw
+43,735,Bmw
+44,740,Bmw
+45,745,Bmw
+46,750,Bmw
+47,760,Bmw
+48,840,Bmw
+49,850,Bmw
+50,M1,Bmw
+51,M2,Bmw
+52,M3,Bmw
+53,M4,Bmw
+54,M5,Bmw
+55,M6,Bmw
+56,Z3,Bmw
+57,Z4,Bmw
+58,X1,Bmw
+59,X2,Bmw
+60,X3,Bmw
+61,X4,Bmw
+62,X5,Bmw
+63,X6,Bmw
+64,X7,Bmw
+65,i3,Bmw
+100,Citi,Bmw
+101,A1,Audi
+102,A2,Audi
+103,A3,Audi
+104,A4,Audi
+105,A5,Audi
+106,A6,Audi
+107,A7,Audi
+108,A8,Audi
+109,E-tron,Audi
+110,Q2,Audi
+111,Q3,Audi
+112,Q5,Audi
+113,Q7,Audi
+114,Q8,Audi
+115,RS4,Audi
+116,S2,Audi
+117,S3,Audi
+118,S4,Audi
+119,S5,Audi
+120,S6,Audi
+121,S7,Audi
+122,S8,Audi
+123,TT,Audi
+124,V8,Audi
+125,Allroad,Audi
+126,Cabrio,Audi
+127,Cabriolet,Audi
+128,Coupe,Audi
+129,Quattro,Audi
+130,80,Audi
+131,90,Audi
+132,100,Audi
+133,4000,Audi
+200,Citi,Audi
+201,Amarok,Volkswagen
+202,Arteon,Volkswagen
+203,Beetle,Volkswagen
+204,Bora,Volkswagen
+205,Caddy,Volkswagen
+206,Caravelle,Volkswagen
+207,Crafter,Volkswagen
+208,Eos,Volkswagen
+209,Fox,Volkswagen
+210,Golf 1,Volkswagen
+211,Golf 2,Volkswagen
+212,Golf 3,Volkswagen
+213,Golf 4,Volkswagen
+214,Golf 5,Volkswagen
+215,Golf 6,Volkswagen
+216,Golf 7,Volkswagen
+217,Golf Plus,Volkswagen
+218,Golf Sportsvan,Volkswagen
+219,Golf Variant,Volkswagen
+220,Jetta,Volkswagen
+221,Kafer,Volkswagen
+222,LT,Volkswagen
+223,Lupo,Volkswagen
+224,Multivan,Volkswagen
+225,Passat (B2),Volkswagen
+226,Passat (B3),Volkswagen
+227,Passat (B4),Volkswagen
+228,Passat (B5),Volkswagen
+229,Passat (B6),Volkswagen
+230,Passat (B7),Volkswagen
+231,Passat (B8),Volkswagen
+232,Passat Alltrack,Volkswagen
+233,Passat CC,Volkswagen
+234,Passat Variant,Volkswagen
+235,Phaeton,Volkswagen
+236,Polo,Volkswagen
+237,Scirocco,Volkswagen
+238,Sharan,Volkswagen
+239,T-Cross,Volkswagen
+240,T-Roc,Volkswagen
+241,T2,Volkswagen
+242,T3,Volkswagen
+243,T4,Volkswagen
+244,T5,Volkswagen
+245,T6,Volkswagen
+246,Taigo,Volkswagen
+247,Taro,Volkswagen
+248,Tiguan,Volkswagen
+249,Touareg,Volkswagen
+250,Touran,Volkswagen
+251,Transporter,Volkswagen
+252,Up!,Volkswagen
+253,Vento,Volkswagen
+300,Citi,Volkswagen
+301,A140,Mercedes
+302,A150,Mercedes
+303,A160,Mercedes
+304,A170,Mercedes
+305,A180,Mercedes
+306,A200,Mercedes
+307,A220,Mercedes
+308,B150,Mercedes
+309,B160,Mercedes
+310,B170,Mercedes
+311,B180,Mercedes
+312,B200,Mercedes
+313,B250,Mercedes
+314,C180,Mercedes
+315,C200,Mercedes
+316,C220,Mercedes
+317,C230,Mercedes
+318,C250,Mercedes
+319,C270,Mercedes
+320,C280,Mercedes
+321,C320,Mercedes
+322,C350,Mercedes
+323,C450 AMG,Mercedes
+324,CE300,Mercedes
+325,CL420,Mercedes
+326,CL500,Mercedes
+327,CL600,Mercedes
+328,CL63 AMG,Mercedes
+329,CLA180,Mercedes
+330,CLA200,Mercedes
+331,CLA220,Mercedes
+332,CLA250,Mercedes
+333,CLK,Mercedes
+334,CLK200,Mercedes
+335,CLK220,Mercedes
+336,CLK230,Mercedes
+337,CLK240,Mercedes
+338,CLK270,Mercedes
+339,CLK320,Mercedes
+340,CLK430,Mercedes
+341,CLS250,Mercedes
+342,CLS320,Mercedes
+343,CLS350,Mercedes
+344,CLS400,Mercedes
+345,CLS450,Mercedes
+346,CLS500,Mercedes
+347,E200,Mercedes
+348,E220,Mercedes
+349,E230,Mercedes
+350,E240,Mercedes
+351,E250,Mercedes
+352,E260,Mercedes
+353,E270,Mercedes
+354,E280,Mercedes
+355,E300,Mercedes
+356,E320,Mercedes
+357,E350,Mercedes
+358,E36 AMG,Mercedes
+359,E400,Mercedes
+360,E55 AMG,Mercedes
+361,G240,Mercedes
+362,G300,Mercedes
+363,G320,Mercedes
+364,G350,Mercedes
+365,G400,Mercedes
+366,G500,Mercedes
+367,G63 AMG,Mercedes
+368,GL320,Mercedes
+369,GL350,Mercedes
+370,GL420,Mercedes
+371,GL450,Mercedes
+372,GL500,Mercedes
+373,GLA200,Mercedes
+374,GLA220,Mercedes
+375,GLA250,Mercedes
+376,GLC 200,Mercedes
+377,GLC 220,Mercedes
+378,GLC 250,Mercedes
+379,GLC 350,Mercedes
+380,GLC 43 AMG,Mercedes
+381,GLE 250,Mercedes
+382,GLE 350,Mercedes
+383,GLE 43 AMG,Mercedes
+384,GLK 220,Mercedes
+385,GLK 250,Mercedes
+386,GLK 320,Mercedes
+387,GLK 350,Mercedes
+388,GLS 350,Mercedes
+389,GLS 400,Mercedes
+390,GLS 450,Mercedes
+391,ML250,Mercedes
+392,ML270,Mercedes
+393,ML280,Mercedes
+394,ML300,Mercedes
+395,ML320,Mercedes
+396,ML350,Mercedes
+397,ML400,Mercedes
+398,ML420,Mercedes
+399,ML450,Mercedes
+400,ML500,Mercedes
+401,ML55 AMG,Mercedes
+402,ML63 AMG,Mercedes
+403,R280,Mercedes
+404,R320,Mercedes
+405,R350,Mercedes
+406,S280,Mercedes
+407,S300,Mercedes
+408,S320,Mercedes
+409,S350,Mercedes
+410,S400,Mercedes
+411,S420,Mercedes
+412,S430,Mercedes
+413,S450,Mercedes
+414,S500,Mercedes
+415,S550,Mercedes
+416,S560,Mercedes
+417,S600,Mercedes
+418,S63 AMG,Mercedes
+419,SL300,Mercedes
+420,SL500,Mercedes
+421,SL55 AMG,Mercedes
+422,SLK200,Mercedes
+423,SLK230,Mercedes
+424,V200,Mercedes
+425,V220,Mercedes
+426,V230,Mercedes
+427,V250,Mercedes
+428,V300,Mercedes
+429,X250,Mercedes
+430,190,Mercedes
+431,200,Mercedes
+432,220,Mercedes
+433,230,Mercedes
+434,250,Mercedes
+435,260,Mercedes
+436,280,Mercedes
+437,300,Mercedes
+438,380,Mercedes
+439,450,Mercedes
+440,560,Mercedes
+441,Citan,Mercedes
+442,Sprinter,Mercedes
+443,Vaneo,Mercedes
+444,Viano,Mercedes
+445,Vito,Mercedes
+500,Citi,Mercedes
+501,244,Volvo
+502,740,Volvo
+503,850,Volvo
+504,940,Volvo
+505,960,Volvo
+506,C30,Volvo
+507,C70,Volvo
+508,S40,Volvo
+509,S60,Volvo
+510,S70,Volvo
+511,S80,Volvo
+512,S90,Volvo
+513,V40,Volvo
+514,V50,Volvo
+515,V60,Volvo
+516,V70,Volvo
+517,V90,Volvo
+518,XC 40,Volvo
+519,XC 60,Volvo
+520,XC 70,Volvo
+521,XC 90,Volvo
+600,Citi,Volvo
+601,Aerostar,Ford
+602,B-Max,Ford
+603,C-Max,Ford
+604,Courier,Ford
+605,Crown Victoria,Ford
+606,Econoline,Ford
+607,EcoSport,Ford
+608,Escort,Ford
+609,Explorer,Ford
+610,F150,Ford
+611,Fiesta,Ford
+612,Flex,Ford
+613,Focus,Ford
+614,Fusion,Ford
+615,Galaxy,Ford
+616,KA,Ford
+617,Kuga,Ford
+618,Maverick,Ford
+619,Mondeo,Ford
+620,Mustang,Ford
+621,Ranger,Ford
+622,Raptor,Ford
+623,S-Max,Ford
+624,Scorpio,Ford
+625,Sierra,Ford
+626,Tourneo,Ford
+627,Transit,Ford
+700,Citi,Ford
+701,Adam,Opel
+702,Agila,Opel
+703,Ampera,Opel
+704,Antara,Opel
+705,Ascona,Opel
+706,Astra,Opel
+707,Astra Van,Opel
+708,Combo,Opel
+709,Corsa,Opel
+710,Crossland X,Opel
+711,Frontera,Opel
+712,Frontera Sport,Opel
+713,Grandland X,Opel
+714,Insignia,Opel
+715,Kadet,Opel
+716,Meriva,Opel
+717,Mokka,Opel
+718,Monterey,Opel
+719,Movano,Opel
+720,Omega,Opel
+721,Signum,Opel
+722,Sintra,Opel
+723,Tigra,Opel
+724,Vectra,Opel
+725,Vectra-A,Opel
+726,Vivaro,Opel
+727,Zafira,Opel
+800,Citi,Opel
+801,Auris,Toyota
+802,Avensis,Toyota
+803,Avensis Verso,Toyota
+804,Aygo,Toyota
+805,Camry,Toyota
+806,Carina,Toyota
+807,Celica,Toyota
+808,Corolla,Toyota
+809,Corolla Verso,Toyota
+810,Dyna,Toyota
+811,Hi-Lux,Toyota
+812,Hiace,Toyota
+813,Highlander,Toyota
+814,Hilux,Toyota
+815,IQ,Toyota
+816,Land Cruiser,Toyota
+817,MR 2,Toyota
+818,Picnic,Toyota
+819,Prius,Toyota
+820,Prius+,Toyota
+821,Proace,Toyota
+822,RAV 4,Toyota
+823,Sienna,Toyota
+824,Starlet,Toyota
+825,Supra,Toyota
+826,Verso,Toyota
+827,Verso-S,Toyota
+828,Yaris,Toyota
+900,Citi,Toyota
+901,E-Pace,Jaguar
+902,F-Pace,Jaguar
+903,F-Type,Jaguar
+904,S-Type,Jaguar
+905,X-Type,Jaguar
+906,XE,Jaguar
+907,XF,Jaguar
+908,XJ,Jaguar
+909,XJ40,Jaguar
+910,XJS,Jaguar
+911,XK,Jaguar
+1000,Citi,Jaguar
+1001,Astro,Chevrolet
+1002,Astro Van,Chevrolet
+1003,Aveo,Chevrolet
+1004,C1500,Chevrolet
+1005,Camaro,Chevrolet
+1006,Captiva,Chevrolet
+1007,Chevy Van,Chevrolet
+1008,Corvette,Chevrolet
+1009,Cruze,Chevrolet
+1010,Evanda,Chevrolet
+1011,Express,Chevrolet
+1012,Lacetti,Chevrolet
+1013,Malibu,Chevrolet
+1014,Matiz,Chevrolet
+1015,Nubira,Chevrolet
+1016,Orlando,Chevrolet
+1017,Rezzo,Chevrolet
+1018,Saburban,Chevrolet
+1019,Silverado,Chevrolet
+1020,Spark,Chevrolet
+1021,Suburban,Chevrolet
+1022,Tahoe,Chevrolet
+1023,Trax,Chevrolet
+1024,Impala,Chevrolet
+1100,Citi,Chevrolet
+1101,911,Porsche
+1102,924,Porsche
+1103,Boxster,Porsche
+1104,Cayenne,Porsche
+1105,Cayman,Porsche
+1106,Macan,Porsche
+1107,Panamera,Porsche
+1200,Citi,Porsche
+1201,Avantime,Renault
+1202,Captur,Renault
+1203,Clio,Renault
+1204,Espace,Renault
+1205,Fluence,Renault
+1206,Grand Espace,Renault
+1207,Grand Scenic,Renault
+1208,Kadjar,Renault
+1209,Kangoo,Renault
+1210,Koleos,Renault
+1211,Laguna,Renault
+1212,Latitude,Renault
+1213,Mascott,Renault
+1214,Master,Renault
+1215,Megane,Renault
+1216,Modus,Renault
+1217,Talisman,Renault
+1218,Scenic,Renault
+1219,Trafic,Renault
+1220,Twingo,Renault
+1221,VEL Satis,Renault
+1300,Citi,Renault
+1301,B9 Tribeca,Subaru
+1302,Forester,Subaru
+1303,Impreza,Subaru
+1304,Justy,Subaru
+1305,Legacy,Subaru
+1306,Levorg,Subaru
+1307,OUTBACK,Subaru
+1308,XV,Subaru
+1400,Citi,Subaru
+1401,Asx,Mitsubishi
+1402,Canter,Mitsubishi
+1403,Carisma,Mitsubishi
+1404,Colt,Mitsubishi
+1405,Eclipse,Mitsubishi
+1406,Galant,Mitsubishi
+1407,Grandis,Mitsubishi
+1408,L 200,Mitsubishi
+1409,L 300,Mitsubishi
+1410,Lancer,Mitsubishi
+1411,Lancer Evolution,Mitsubishi
+1412,Montero,Mitsubishi
+1413,Outlander,Mitsubishi
+1414,Pajero,Mitsubishi
+1415,Pajero Pinin,Mitsubishi
+1416,Space Gear,Mitsubishi
+1417,Space Runner,Mitsubishi
+1418,Space Star,Mitsubishi
+1419,Space Wagon,Mitsubishi
+1500,Citi,Mitsubishi
+1501,Citigo,Skoda
+1502,Fabia,Skoda
+1503,Felicia,Skoda
+1504,Kamiq,Skoda
+1505,Karoq,Skoda
+1506,Kodiaq,Skoda
+1507,Octavia,Skoda
+1508,Praktik,Skoda
+1509,Rapid,Skoda
+1510,Roomster,Skoda
+1511,Scala,Skoda
+1512,Superb,Skoda
+1513,Yeti,Skoda
+1600,Citi,Skoda
+1601,CX-3,Mazda
+1602,CX-5,Mazda
+1603,CX-7,Mazda
+1604,323,Mazda
+1605,626,Mazda
+1606,B2500,Mazda
+1607,E 2200,Mazda
+1608,Mazda2,Mazda
+1609,Mazda3,Mazda
+1610,Mazda5,Mazda
+1611,Mazda6,Mazda
+1612,MPV,Mazda
+1613,MX,Mazda
+1614,MX-6,Mazda
+1615,Premacy,Mazda
+1616,Rx-8,Mazda
+1617,Xedos 6,Mazda
+1700,Citi,Mazda
+1701,Accent,Hyundai
+1702,Coupe,Hyundai
+1703,Elantra,Hyundai
+1704,Galloper,Hyundai
+1705,Genesis,Hyundai
+1706,Getz,Hyundai
+1707,H-1,Hyundai
+1708,H-1 Starex,Hyundai
+1709,H1,Hyundai
+1710,H100,Hyundai
+1711,H200,Hyundai
+1712,i10,Hyundai
+1713,i20,Hyundai
+1714,I30,Hyundai
+1715,i40,Hyundai
+1716,Ioniq,Hyundai
+1717,ix20,Hyundai
+1718,ix35,Hyundai
+1719,ix55,Hyundai
+1720,Kona,Hyundai
+1721,Matrix,Hyundai
+1722,Santa FE,Hyundai
+1723,Sonata,Hyundai
+1724,Terracan,Hyundai
+1725,Tucson,Hyundai
+1800,Citi,Hyundai
+1801,Carens,Kia
+1802,Carnival,Kia
+1803,Ceed,Kia
+1804,Cerato,Kia
+1805,Magentis,Kia
+1806,Optima,Kia
+1807,Picanto,Kia
+1808,RIO,Kia
+1809,Shuma,Kia
+1810,Sorento,Kia
+1811,Soul,Kia
+1812,Sportage,Kia
+1813,Stonic,Kia
+1814,Xceed,Kia
+1900,Accord,Honda
+1901,Aerodeck,Honda
+1902,Civic,Honda
+1903,Cr-v,Honda
+1904,FR-V,Honda
+1905,Hr-v,Honda
+1906,Jazz,Honda
+1907,Legend,Honda
+1908,Logo,Honda
+1909,Prelude,Honda
+1910,Shuttle,Honda
+1911,Stream,Honda
+2000,Citi,Honda
+2001,Almera,Nissan
+2002,Almera Tino,Nissan
+2003,Juke,Nissan
+2004,King Cab,Nissan
+2005,Leaf,Nissan
+2006,Micra,Nissan
+2007,Murano,Nissan
+2008,Navara,Nissan
+2009,Note,Nissan
+2010,NV200,Nissan
+2011,NV300,Nissan
+2012,Pathfinder,Nissan
+2013,Patrol,Nissan
+2014,Pick UP,Nissan
+2015,Primastar,Nissan
+2016,Primera,Nissan
+2017,Pulsar,Nissan
+2018,Qashqai,Nissan
+2019,Terrano,Nissan
+2020,Terrano II,Nissan
+2021,Tiida,Nissan
+2022,Tino,Nissan
+2023,X-Trail,Nissan
+2100,Citi,Nissan
+2101,CT,Lexus
+2102,ES,Lexus
+2103,GS,Lexus
+2104,GX,Lexus
+2105,IS,Lexus
+2106,LS,Lexus
+2107,LX,Lexus
+2108,NX,Lexus
+2109,RC,Lexus
+2110,RC F,Lexus
+2111,RX,Lexus
+2112,SC,Lexus
+2113,UX,Lexus
+2200,Citi,Lexus
+2201,1007,Peugeot
+2202,107,Peugeot
+2203,2008,Peugeot
+2204,205,Peugeot
+2205,206,Peugeot
+2206,207,Peugeot
+2207,208,Peugeot
+2208,3008,Peugeot
+2209,306,Peugeot
+2210,307,Peugeot
+2211,308,Peugeot
+2212,4007,Peugeot
+2213,406,Peugeot
+2214,407,Peugeot
+2215,5008,Peugeot
+2216,508,Peugeot
+2217,605,Peugeot
+2218,607,Peugeot
+2219,807,Peugeot
+2220,Bipper,Peugeot
+2221,Boxer,Peugeot
+2222,Expert,Peugeot
+2223,Partner,Peugeot
+2224,RCZ,Peugeot
+2225,Rifter,Peugeot
+2226,Traveller,Peugeot
+2301,Citi,Peugeot

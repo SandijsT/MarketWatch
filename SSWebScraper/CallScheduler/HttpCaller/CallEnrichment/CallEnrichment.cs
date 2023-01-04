@@ -9,12 +9,16 @@ namespace CallScheduler.HttpCaller.CallEnrichment
         public static Task EnrichCall()
         {
             var config = TempVehicleConfig.GetConfig();
+            var postType = TempVehicleConfig.PostType;
+            var category = TempVehicleConfig.Category;
+
             var vehicleRequests = new List<VehicleRequest>();
             foreach(var type in config)
             {
                 var vehicleRequest = new VehicleRequest
                 {
-                    Category = "cars",
+                    PostType = postType,
+                    Category = category,
                     Make = type
                 };
                 vehicleRequests.Add(vehicleRequest);

@@ -61,6 +61,8 @@
     <Folder Include="Tables" />
     <Folder Include="Tables\LookupTables" />
     <Folder Include="Tables\DataTables" />
+    <Folder Include="Stored Procedures" />
+    <Folder Include="Tabled-Function" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\DataTables\Vehicle.sql" />
@@ -78,6 +80,10 @@
     <Build Include="Tables\LookupTables\BodyTypeLanguage.sql" />
     <Build Include="Tables\LookupTables\PostTypeLanguage.sql" />
     <Build Include="Tables\LookupTables\CategoryLanguage.sql" />
+    <Build Include="Stored Procedures\LUGetLookupItemIdByValue.sql" />
+    <Build Include="Tables\DataTables\Rating.sql" />
+    <Build Include="Tabled-Function\GetRatingValues.sql" />
+    <Build Include="Tabled-Function\GetRatingDistinctCombinations.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="resource.publish.xml" />

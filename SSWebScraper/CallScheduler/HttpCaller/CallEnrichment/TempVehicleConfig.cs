@@ -2,11 +2,14 @@
 {
     public static class TempVehicleConfig
     {
+        public static string PostType = "transport";
+        public static string Category = "cars";
+
         public static string[] GetConfig()
         {
-            string[] vehicleTypes = {"alfa-romeo", "audi", "bmw", "chevrolet", "chrysler", "citroen", "dacia", "dodge", "fiat", "ford", "honda",
-            "hyundai", "infiniti", "jaguar", "jeep", "kia", "lancia", "land-rover", "lexus", "mazda", "mercedes", "mini", "mitsubishi", "nissan",
-            "opel", "peugeot", "porsche", "renault", "saab", "seat", "skoda", "smart", "subaru", "suzuki", "toyota", "volkswagen", "volvo", "gaz", "vaz", "others" };
+            string[] vehicleTypes = {"audi", "bmw", "chevrolet", "ford", "honda",
+            "hyundai", "jaguar", "kia", "lexus", "mazda", "mercedes", "mitsubishi", "nissan",
+            "opel", "peugeot", "porsche", "renault", "skoda", "subaru", "toyota", "volkswagen", "volvo"};
             return vehicleTypes;
         }
         /*string alfaRomeo = "alfa-romeo";
