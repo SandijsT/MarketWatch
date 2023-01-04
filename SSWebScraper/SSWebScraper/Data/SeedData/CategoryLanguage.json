@@ -1,26 +1,22 @@
 [
- {
-   "CategoryId": 1,
-   "LanguageId": 1,
-   "Description": "cars",
-   "DisplayOrder": 1
- },
- {
-   "CategoryId": 2,
-   "LanguageId": 1,
-   "Description": "cargo-cars",
-   "DisplayOrder": 1
- },
- {
-   "CategoryId": 3,
-   "LanguageId": 1,
-   "Description": "moto-transport",
-   "DisplayOrder": 1
- },
- {
-   "CategoryId": 4,
-   "LanguageId": 1,
-   "Description": "the-sailing-charter",
-   "DisplayOrder": 1
- }
+  {
+    "CategoryId": 1,
+    "LanguageId": 1,
+    "Description": "cars"
+  },
+  {
+    "CategoryId": 2,
+    "LanguageId": 1,
+    "Description": "cargo-cars"
+  },
+  {
+    "CategoryId": 3,
+    "LanguageId": 1,
+    "Description": "moto-transport"
+  },
+  {
+    "CategoryId": 4,
+    "LanguageId": 1,
+    "Description": "the-sailing-charter"
+  }
 ]

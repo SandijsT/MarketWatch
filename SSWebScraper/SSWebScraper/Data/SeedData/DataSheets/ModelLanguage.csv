@@ -1,654 +1,654 @@
-﻿ModelId,LanguageId,Description,DisplayOrder
-1,1,Nezinams,1
-2,1,Bmw 116,1
-3,1,Bmw 118,1
-4,1,Bmw 120,1
-5,1,Bmw 135,1
-6,1,Bmw 216,1
-7,1,Bmw 218,1
-8,1,Bmw 220,1
-9,1,Bmw 225,1
-10,1,Bmw 228,1
-11,1,Bmw 316,1
-12,1,Bmw 318,1
-13,1,Bmw 320,1
-14,1,Bmw 323,1
-15,1,Bmw 324,1
-16,1,Bmw 325,1
-17,1,Bmw 328,1
-18,1,Bmw 330,1
-19,1,Bmw 335,1
-20,1,Bmw 340,1
-21,1,Bmw 420,1
-22,1,Bmw 425,1
-23,1,Bmw 430,1
-24,1,Bmw 435,1
-25,1,Bmw 520,1
-26,1,Bmw 523,1
-27,1,Bmw 525,1
-28,1,Bmw 528,1
-29,1,Bmw 530,1
-30,1,Bmw 535,1
-31,1,Bmw 540,1
-32,1,Bmw 545,1
-33,1,Bmw 550,1
-34,1,Bmw 630,1
-35,1,Bmw 635,1
-36,1,Bmw 640,1
-37,1,Bmw 645,1
-38,1,Bmw 650,1
-39,1,Bmw 725,1
-40,1,Bmw 728,1
-41,1,Bmw 730,1
-42,1,Bmw 732,1
-43,1,Bmw 735,1
-44,1,Bmw 740,1
-45,1,Bmw 745,1
-46,1,Bmw 750,1
-47,1,Bmw 760,1
-48,1,Bmw 840,1
-49,1,Bmw 850,1
-50,1,Bmw M1,1
-51,1,Bmw M2,1
-52,1,Bmw M3,1
-53,1,Bmw M4,1
-54,1,Bmw M5,1
-55,1,Bmw M6,1
-56,1,Bmw Z3,1
-57,1,Bmw Z4,1
-58,1,Bmw X1,1
-59,1,Bmw X2,1
-60,1,Bmw X3,1
-61,1,Bmw X4,1
-62,1,Bmw X5,1
-63,1,Bmw X6,1
-64,1,Bmw X7,1
-65,1,Bmw i3,1
-100,1,Bmw Citi,1
-101,1,Audi A1,1
-102,1,Audi A2,1
-103,1,Audi A3,1
-104,1,Audi A4,1
-105,1,Audi A5,1
-106,1,Audi A6,1
-107,1,Audi A7,1
-108,1,Audi A8,1
-109,1,Audi E-tron,1
-110,1,Audi Q2,1
-111,1,Audi Q3,1
-112,1,Audi Q5,1
-113,1,Audi Q7,1
-114,1,Audi Q8,1
-115,1,Audi RS4,1
-116,1,Audi S2,1
-117,1,Audi S3,1
-118,1,Audi S4,1
-119,1,Audi S5,1
-120,1,Audi S6,1
-121,1,Audi S7,1
-122,1,Audi S8,1
-123,1,Audi TT,1
-124,1,Audi V8,1
-125,1,Audi Allroad,1
-126,1,Audi Cabrio,1
-127,1,Audi Cabriolet,1
-128,1,Audi Coupe,1
-129,1,Audi Quattro,1
-130,1,Audi 80,1
-131,1,Audi 90,1
-132,1,Audi 100,1
-133,1,Audi 4000,1
-200,1,Audi Citi,1
-201,1,Volkswagen Amarok,1
-202,1,Volkswagen Arteon,1
-203,1,Volkswagen Beetle,1
-204,1,Volkswagen Bora,1
-205,1,Volkswagen Caddy,1
-206,1,Volkswagen Caravelle,1
-207,1,Volkswagen Crafter,1
-208,1,Volkswagen Eos,1
-209,1,Volkswagen Fox,1
-210,1,Volkswagen Golf 1,1
-211,1,Volkswagen Golf 2,1
-212,1,Volkswagen Golf 3,1
-213,1,Volkswagen Golf 4,1
-214,1,Volkswagen Golf 5,1
-215,1,Volkswagen Golf 6,1
-216,1,Volkswagen Golf 7,1
-217,1,Volkswagen Golf Plus,1
-218,1,Volkswagen Golf Sportsvan,1
-219,1,Volkswagen Golf Variant,1
-220,1,Volkswagen Jetta,1
-221,1,Volkswagen Kafer,1
-222,1,Volkswagen LT,1
-223,1,Volkswagen Lupo,1
-224,1,Volkswagen Multivan,1
-225,1,Volkswagen Passat (B2),1
-226,1,Volkswagen Passat (B3),1
-227,1,Volkswagen Passat (B4),1
-228,1,Volkswagen Passat (B5),1
-229,1,Volkswagen Passat (B6),1
-230,1,Volkswagen Passat (B7),1
-231,1,Volkswagen Passat (B8),1
-232,1,Volkswagen Passat Alltrack,1
-233,1,Volkswagen Passat CC,1
-234,1,Volkswagen Passat Variant,1
-235,1,Volkswagen Phaeton,1
-236,1,Volkswagen Polo,1
-237,1,Volkswagen Scirocco,1
-238,1,Volkswagen Sharan,1
-239,1,Volkswagen T-Cross,1
-240,1,Volkswagen T-Roc,1
-241,1,Volkswagen T2,1
-242,1,Volkswagen T3,1
-243,1,Volkswagen T4,1
-244,1,Volkswagen T5,1
-245,1,Volkswagen T6,1
-246,1,Volkswagen Taigo,1
-247,1,Volkswagen Taro,1
-248,1,Volkswagen Tiguan,1
-249,1,Volkswagen Touareg,1
-250,1,Volkswagen Touran,1
-251,1,Volkswagen Transporter,1
-252,1,Volkswagen Up!,1
-253,1,Volkswagen Vento,1
-300,1,Volkswagen Citi,1
-301,1,Mercedes A140,1
-302,1,Mercedes A150,1
-303,1,Mercedes A160,1
-304,1,Mercedes A170,1
-305,1,Mercedes A180,1
-306,1,Mercedes A200,1
-307,1,Mercedes A220,1
-308,1,Mercedes B150,1
-309,1,Mercedes B160,1
-310,1,Mercedes B170,1
-311,1,Mercedes B180,1
-312,1,Mercedes B200,1
-313,1,Mercedes B250,1
-314,1,Mercedes C180,1
-315,1,Mercedes C200,1
-316,1,Mercedes C220,1
-317,1,Mercedes C230,1
-318,1,Mercedes C250,1
-319,1,Mercedes C270,1
-320,1,Mercedes C280,1
-321,1,Mercedes C320,1
-322,1,Mercedes C350,1
-323,1,Mercedes C450 AMG,1
-324,1,Mercedes CE300,1
-325,1,Mercedes CL420,1
-326,1,Mercedes CL500,1
-327,1,Mercedes CL600,1
-328,1,Mercedes CL63 AMG,1
-329,1,Mercedes CLA180,1
-330,1,Mercedes CLA200,1
-331,1,Mercedes CLA220,1
-332,1,Mercedes CLA250,1
-333,1,Mercedes CLK,1
-334,1,Mercedes CLK200,1
-335,1,Mercedes CLK220,1
-336,1,Mercedes CLK230,1
-337,1,Mercedes CLK240,1
-338,1,Mercedes CLK270,1
-339,1,Mercedes CLK320,1
-340,1,Mercedes CLK430,1
-341,1,Mercedes CLS250,1
-342,1,Mercedes CLS320,1
-343,1,Mercedes CLS350,1
-344,1,Mercedes CLS400,1
-345,1,Mercedes CLS450,1
-346,1,Mercedes CLS500,1
-347,1,Mercedes E200,1
-348,1,Mercedes E220,1
-349,1,Mercedes E230,1
-350,1,Mercedes E240,1
-351,1,Mercedes E250,1
-352,1,Mercedes E260,1
-353,1,Mercedes E270,1
-354,1,Mercedes E280,1
-355,1,Mercedes E300,1
-356,1,Mercedes E320,1
-357,1,Mercedes E350,1
-358,1,Mercedes E36 AMG,1
-359,1,Mercedes E400,1
-360,1,Mercedes E55 AMG,1
-361,1,Mercedes G240,1
-362,1,Mercedes G300,1
-363,1,Mercedes G320,1
-364,1,Mercedes G350,1
-365,1,Mercedes G400,1
-366,1,Mercedes G500,1
-367,1,Mercedes G63 AMG,1
-368,1,Mercedes GL320,1
-369,1,Mercedes GL350,1
-370,1,Mercedes GL420,1
-371,1,Mercedes GL450,1
-372,1,Mercedes GL500,1
-373,1,Mercedes GLA200,1
-374,1,Mercedes GLA220,1
-375,1,Mercedes GLA250,1
-376,1,Mercedes GLC 200,1
-377,1,Mercedes GLC 220,1
-378,1,Mercedes GLC 250,1
-379,1,Mercedes GLC 350,1
-380,1,Mercedes GLC 43 AMG,1
-381,1,Mercedes GLE 250,1
-382,1,Mercedes GLE 350,1
-383,1,Mercedes GLE 43 AMG,1
-384,1,Mercedes GLK 220,1
-385,1,Mercedes GLK 250,1
-386,1,Mercedes GLK 320,1
-387,1,Mercedes GLK 350,1
-388,1,Mercedes GLS 350,1
-389,1,Mercedes GLS 400,1
-390,1,Mercedes GLS 450,1
-391,1,Mercedes ML250,1
-392,1,Mercedes ML270,1
-393,1,Mercedes ML280,1
-394,1,Mercedes ML300,1
-395,1,Mercedes ML320,1
-396,1,Mercedes ML350,1
-397,1,Mercedes ML400,1
-398,1,Mercedes ML420,1
-399,1,Mercedes ML450,1
-400,1,Mercedes ML500,1
-401,1,Mercedes ML55 AMG,1
-402,1,Mercedes ML63 AMG,1
-403,1,Mercedes R280,1
-404,1,Mercedes R320,1
-405,1,Mercedes R350,1
-406,1,Mercedes S280,1
-407,1,Mercedes S300,1
-408,1,Mercedes S320,1
-409,1,Mercedes S350,1
-410,1,Mercedes S400,1
-411,1,Mercedes S420,1
-412,1,Mercedes S430,1
-413,1,Mercedes S450,1
-414,1,Mercedes S500,1
-415,1,Mercedes S550,1
-416,1,Mercedes S560,1
-417,1,Mercedes S600,1
-418,1,Mercedes S63 AMG,1
-419,1,Mercedes SL300,1
-420,1,Mercedes SL500,1
-421,1,Mercedes SL55 AMG,1
-422,1,Mercedes SLK200,1
-423,1,Mercedes SLK230,1
-424,1,Mercedes V200,1
-425,1,Mercedes V220,1
-426,1,Mercedes V230,1
-427,1,Mercedes V250,1
-428,1,Mercedes V300,1
-429,1,Mercedes X250,1
-430,1,Mercedes 190,1
-431,1,Mercedes 200,1
-432,1,Mercedes 220,1
-433,1,Mercedes 230,1
-434,1,Mercedes 250,1
-435,1,Mercedes 260,1
-436,1,Mercedes 280,1
-437,1,Mercedes 300,1
-438,1,Mercedes 380,1
-439,1,Mercedes 450,1
-440,1,Mercedes 560,1
-441,1,Mercedes Citan,1
-442,1,Mercedes Sprinter,1
-443,1,Mercedes Vaneo,1
-444,1,Mercedes Viano,1
-445,1,Mercedes Vito,1
-500,1,Mercedes Citi,1
-501,1,Volvo 244,1
-502,1,Volvo 740,1
-503,1,Volvo 850,1
-504,1,Volvo 940,1
-505,1,Volvo 960,1
-506,1,Volvo C30,1
-507,1,Volvo C70,1
-508,1,Volvo S40,1
-509,1,Volvo S60,1
-510,1,Volvo S70,1
-511,1,Volvo S80,1
-512,1,Volvo S90,1
-513,1,Volvo V40,1
-514,1,Volvo V50,1
-515,1,Volvo V60,1
-516,1,Volvo V70,1
-517,1,Volvo V90,1
-518,1,Volvo XC 40,1
-519,1,Volvo XC 60,1
-520,1,Volvo XC 70,1
-521,1,Volvo XC 90,1
-600,1,Volvo Citi,1
-601,1,Ford Aerostar,1
-602,1,Ford B-Max,1
-603,1,Ford C-Max,1
-604,1,Ford Courier,1
-605,1,Ford Crown Victoria,1
-606,1,Ford Econoline,1
-607,1,Ford EcoSport,1
-608,1,Ford Escort,1
-609,1,Ford Explorer,1
-610,1,Ford F150,1
-611,1,Ford Fiesta,1
-612,1,Ford Flex,1
-613,1,Ford Focus,1
-614,1,Ford Fusion,1
-615,1,Ford Galaxy,1
-616,1,Ford KA,1
-617,1,Ford Kuga,1
-618,1,Ford Maverick,1
-619,1,Ford Mondeo,1
-620,1,Ford Mustang,1
-621,1,Ford Ranger,1
-622,1,Ford Raptor,1
-623,1,Ford S-Max,1
-624,1,Ford Scorpio,1
-625,1,Ford Sierra,1
-626,1,Ford Tourneo,1
-627,1,Ford Transit,1
-700,1,Ford Citi,1
-701,1,Opel Adam,1
-702,1,Opel Agila,1
-703,1,Opel Ampera,1
-704,1,Opel Antara,1
-705,1,Opel Ascona,1
-706,1,Opel Astra,1
-707,1,Opel Astra Van,1
-708,1,Opel Combo,1
-709,1,Opel Corsa,1
-710,1,Opel Crossland X,1
-711,1,Opel Frontera,1
-712,1,Opel Frontera Sport,1
-713,1,Opel Grandland X,1
-714,1,Opel Insignia,1
-715,1,Opel Kadet,1
-716,1,Opel Meriva,1
-717,1,Opel Mokka,1
-718,1,Opel Monterey,1
-719,1,Opel Movano,1
-720,1,Opel Omega,1
-721,1,Opel Signum,1
-722,1,Opel Sintra,1
-723,1,Opel Tigra,1
-724,1,Opel Vectra,1
-725,1,Opel Vectra-A,1
-726,1,Opel Vivaro,1
-727,1,Opel Zafira,1
-800,1,Opel Citi,1
-801,1,Toyota Auris,1
-802,1,Toyota Avensis,1
-803,1,Toyota Avensis Verso,1
-804,1,Toyota Aygo,1
-805,1,Toyota Camry,1
-806,1,Toyota Carina,1
-807,1,Toyota Celica,1
-808,1,Toyota Corolla,1
-809,1,Toyota Corolla Verso,1
-810,1,Toyota Dyna,1
-811,1,Toyota Hi-Lux,1
-812,1,Toyota Hiace,1
-813,1,Toyota Highlander,1
-814,1,Toyota Hilux,1
-815,1,Toyota IQ,1
-816,1,Toyota Land Cruiser,1
-817,1,Toyota MR 2,1
-818,1,Toyota Picnic,1
-819,1,Toyota Prius,1
-820,1,Toyota Prius+,1
-821,1,Toyota Proace,1
-822,1,Toyota RAV 4,1
-823,1,Toyota Sienna,1
-824,1,Toyota Starlet,1
-825,1,Toyota Supra,1
-826,1,Toyota Verso,1
-827,1,Toyota Verso-S,1
-828,1,Toyota Yaris,1
-900,1,Toyota Citi,1
-901,1,Jaguar E-Pace,1
-902,1,Jaguar F-Pace,1
-903,1,Jaguar F-Type,1
-904,1,Jaguar S-Type,1
-905,1,Jaguar X-Type,1
-906,1,Jaguar XE,1
-907,1,Jaguar XF,1
-908,1,Jaguar XJ,1
-909,1,Jaguar XJ40,1
-910,1,Jaguar XJS,1
-911,1,Jaguar XK,1
-1000,1,Jaguar Citi,1
-1001,1,Chevrolet Astro,1
-1002,1,Chevrolet Astro Van,1
-1003,1,Chevrolet Aveo,1
-1004,1,Chevrolet C1500,1
-1005,1,Chevrolet Camaro,1
-1006,1,Chevrolet Captiva,1
-1007,1,Chevrolet Chevy Van,1
-1008,1,Chevrolet Corvette,1
-1009,1,Chevrolet Cruze,1
-1010,1,Chevrolet Evanda,1
-1011,1,Chevrolet Express,1
-1012,1,Chevrolet Lacetti,1
-1013,1,Chevrolet Malibu,1
-1014,1,Chevrolet Matiz,1
-1015,1,Chevrolet Nubira,1
-1016,1,Chevrolet Orlando,1
-1017,1,Chevrolet Rezzo,1
-1018,1,Chevrolet Saburban,1
-1019,1,Chevrolet Silverado,1
-1020,1,Chevrolet Spark,1
-1021,1,Chevrolet Suburban,1
-1022,1,Chevrolet Tahoe,1
-1023,1,Chevrolet Trax,1
-1024,1,Chevrolet Impala,1
-1100,1,Chevrolet Citi,1
-1101,1,Porsche 911,1
-1102,1,Porsche 924,1
-1103,1,Porsche Boxster,1
-1104,1,Porsche Cayenne,1
-1105,1,Porsche Cayman,1
-1106,1,Porsche Macan,1
-1107,1,Porsche Panamera,1
-1200,1,Porsche Citi,1
-1201,1,Renault Avantime,1
-1202,1,Renault Captur,1
-1203,1,Renault Clio,1
-1204,1,Renault Espace,1
-1205,1,Renault Fluence,1
-1206,1,Renault Grand Espace,1
-1207,1,Renault Grand Scenic,1
-1208,1,Renault Kadjar,1
-1209,1,Renault Kangoo,1
-1210,1,Renault Koleos,1
-1211,1,Renault Laguna,1
-1212,1,Renault Latitude,1
-1213,1,Renault Mascott,1
-1214,1,Renault Master,1
-1215,1,Renault Megane,1
-1216,1,Renault Modus,1
-1217,1,Renault Talisman,1
-1218,1,Renault Scenic,1
-1219,1,Renault Trafic,1
-1220,1,Renault Twingo,1
-1221,1,Renault VEL Satis,1
-1300,1,Renault Citi,1
-1301,1,Subaru B9 Tribeca,1
-1302,1,Subaru Forester,1
-1303,1,Subaru Impreza,1
-1304,1,Subaru Justy,1
-1305,1,Subaru Legacy,1
-1306,1,Subaru Levorg,1
-1307,1,Subaru OUTBACK,1
-1308,1,Subaru XV,1
-1400,1,Subaru Citi,1
-1401,1,Mitsubishi Asx,1
-1402,1,Mitsubishi Canter,1
-1403,1,Mitsubishi Carisma,1
-1404,1,Mitsubishi Colt,1
-1405,1,Mitsubishi Eclipse,1
-1406,1,Mitsubishi Galant,1
-1407,1,Mitsubishi Grandis,1
-1408,1,Mitsubishi L 200,1
-1409,1,Mitsubishi L 300,1
-1410,1,Mitsubishi Lancer,1
-1411,1,Mitsubishi Lancer Evolution,1
-1412,1,Mitsubishi Montero,1
-1413,1,Mitsubishi Outlander,1
-1414,1,Mitsubishi Pajero,1
-1415,1,Mitsubishi Pajero Pinin,1
-1416,1,Mitsubishi Space Gear,1
-1417,1,Mitsubishi Space Runner,1
-1418,1,Mitsubishi Space Star,1
-1419,1,Mitsubishi Space Wagon,1
-1500,1,Mitsubishi Citi,1
-1501,1,Skoda Citigo,1
-1502,1,Skoda Fabia,1
-1503,1,Skoda Felicia,1
-1504,1,Skoda Kamiq,1
-1505,1,Skoda Karoq,1
-1506,1,Skoda Kodiaq,1
-1507,1,Skoda Octavia,1
-1508,1,Skoda Praktik,1
-1509,1,Skoda Rapid,1
-1510,1,Skoda Roomster,1
-1511,1,Skoda Scala,1
-1512,1,Skoda Superb,1
-1513,1,Skoda Yeti,1
-1600,1,Skoda Citi,1
-1601,1,Mazda CX-3,1
-1602,1,Mazda CX-5,1
-1603,1,Mazda CX-7,1
-1604,1,Mazda 323,1
-1605,1,Mazda 626,1
-1606,1,Mazda B2500,1
-1607,1,Mazda E 2200,1
-1608,1,Mazda Mazda2,1
-1609,1,Mazda Mazda3,1
-1610,1,Mazda Mazda5,1
-1611,1,Mazda Mazda6,1
-1612,1,Mazda MPV,1
-1613,1,Mazda MX,1
-1614,1,Mazda MX-6,1
-1615,1,Mazda Premacy,1
-1616,1,Mazda Rx-8,1
-1617,1,Mazda Xedos 6,1
-1700,1,Mazda Citi,1
-1701,1,Hyundai Accent,1
-1702,1,Hyundai Coupe,1
-1703,1,Hyundai Elantra,1
-1704,1,Hyundai Galloper,1
-1705,1,Hyundai Genesis,1
-1706,1,Hyundai Getz,1
-1707,1,Hyundai H-1,1
-1708,1,Hyundai H-1 Starex,1
-1709,1,Hyundai H1,1
-1710,1,Hyundai H100,1
-1711,1,Hyundai H200,1
-1712,1,Hyundai i10,1
-1713,1,Hyundai i20,1
-1714,1,Hyundai I30,1
-1715,1,Hyundai i40,1
-1716,1,Hyundai Ioniq,1
-1717,1,Hyundai ix20,1
-1718,1,Hyundai ix35,1
-1719,1,Hyundai ix55,1
-1720,1,Hyundai Kona,1
-1721,1,Hyundai Matrix,1
-1722,1,Hyundai Santa FE,1
-1723,1,Hyundai Sonata,1
-1724,1,Hyundai Terracan,1
-1725,1,Hyundai Tucson,1
-1800,1,Hyundai Citi,1
-1801,1,Kia Carens,1
-1802,1,Kia Carnival,1
-1803,1,Kia Ceed,1
-1804,1,Kia Cerato,1
-1805,1,Kia Magentis,1
-1806,1,Kia Optima,1
-1807,1,Kia Picanto,1
-1808,1,Kia RIO,1
-1809,1,Kia Shuma,1
-1810,1,Kia Sorento,1
-1811,1,Kia Soul,1
-1812,1,Kia Sportage,1
-1813,1,Kia Stonic,1
-1814,1,Kia Xceed,1
-1900,1,Honda Accord,1
-1901,1,Honda Aerodeck,1
-1902,1,Honda Civic,1
-1903,1,Honda Cr-v,1
-1904,1,Honda FR-V,1
-1905,1,Honda Hr-v,1
-1906,1,Honda Jazz,1
-1907,1,Honda Legend,1
-1908,1,Honda Logo,1
-1909,1,Honda Prelude,1
-1910,1,Honda Shuttle,1
-1911,1,Honda Stream,1
-2000,1,Honda Citi,1
-2001,1,Nissan Almera,1
-2002,1,Nissan Almera Tino,1
-2003,1,Nissan Juke,1
-2004,1,Nissan King Cab,1
-2005,1,Nissan Leaf,1
-2006,1,Nissan Micra,1
-2007,1,Nissan Murano,1
-2008,1,Nissan Navara,1
-2009,1,Nissan Note,1
-2010,1,Nissan NV200,1
-2011,1,Nissan NV300,1
-2012,1,Nissan Pathfinder,1
-2013,1,Nissan Patrol,1
-2014,1,Nissan Pick UP,1
-2015,1,Nissan Primastar,1
-2016,1,Nissan Primera,1
-2017,1,Nissan Pulsar,1
-2018,1,Nissan Qashqai,1
-2019,1,Nissan Terrano,1
-2020,1,Nissan Terrano II,1
-2021,1,Nissan Tiida,1
-2022,1,Nissan Tino,1
-2023,1,Nissan X-Trail,1
-2100,1,Nissan Citi,1
-2101,1,Lexus CT,1
-2102,1,Lexus ES,1
-2103,1,Lexus GS,1
-2104,1,Lexus GX,1
-2105,1,Lexus IS,1
-2106,1,Lexus LS,1
-2107,1,Lexus LX,1
-2108,1,Lexus NX,1
-2109,1,Lexus RC,1
-2110,1,Lexus RC F,1
-2111,1,Lexus RX,1
-2112,1,Lexus SC,1
-2113,1,Lexus UX,1
-2200,1,Lexus Citi,1
-2201,1,Peugeot 1007,1
-2202,1,Peugeot 107,1
-2203,1,Peugeot 2008,1
-2204,1,Peugeot 205,1
-2205,1,Peugeot 206,1
-2206,1,Peugeot 207,1
-2207,1,Peugeot 208,1
-2208,1,Peugeot 3008,1
-2209,1,Peugeot 306,1
-2210,1,Peugeot 307,1
-2211,1,Peugeot 308,1
-2212,1,Peugeot 4007,1
-2213,1,Peugeot 406,1
-2214,1,Peugeot 407,1
-2215,1,Peugeot 5008,1
-2216,1,Peugeot 508,1
-2217,1,Peugeot 605,1
-2218,1,Peugeot 607,1
-2219,1,Peugeot 807,1
-2220,1,Peugeot Bipper,1
-2221,1,Peugeot Boxer,1
-2222,1,Peugeot Expert,1
-2223,1,Peugeot Partner,1
-2224,1,Peugeot RCZ,1
-2225,1,Peugeot Rifter,1
-2226,1,Peugeot Traveller,1
-2301,1,Peugeot Citi,1
+﻿ModelId,LanguageId,Description
+1,1,Nezinams
+2,1,Bmw 116
+3,1,Bmw 118
+4,1,Bmw 120
+5,1,Bmw 135
+6,1,Bmw 216
+7,1,Bmw 218
+8,1,Bmw 220
+9,1,Bmw 225
+10,1,Bmw 228
+11,1,Bmw 316
+12,1,Bmw 318
+13,1,Bmw 320
+14,1,Bmw 323
+15,1,Bmw 324
+16,1,Bmw 325
+17,1,Bmw 328
+18,1,Bmw 330
+19,1,Bmw 335
+20,1,Bmw 340
+21,1,Bmw 420
+22,1,Bmw 425
+23,1,Bmw 430
+24,1,Bmw 435
+25,1,Bmw 520
+26,1,Bmw 523
+27,1,Bmw 525
+28,1,Bmw 528
+29,1,Bmw 530
+30,1,Bmw 535
+31,1,Bmw 540
+32,1,Bmw 545
+33,1,Bmw 550
+34,1,Bmw 630
+35,1,Bmw 635
+36,1,Bmw 640
+37,1,Bmw 645
+38,1,Bmw 650
+39,1,Bmw 725
+40,1,Bmw 728
+41,1,Bmw 730
+42,1,Bmw 732
+43,1,Bmw 735
+44,1,Bmw 740
+45,1,Bmw 745
+46,1,Bmw 750
+47,1,Bmw 760
+48,1,Bmw 840
+49,1,Bmw 850
+50,1,Bmw M1
+51,1,Bmw M2
+52,1,Bmw M3
+53,1,Bmw M4
+54,1,Bmw M5
+55,1,Bmw M6
+56,1,Bmw Z3
+57,1,Bmw Z4
+58,1,Bmw X1
+59,1,Bmw X2
+60,1,Bmw X3
+61,1,Bmw X4
+62,1,Bmw X5
+63,1,Bmw X6
+64,1,Bmw X7
+65,1,Bmw i3
+100,1,Bmw Citi
+101,1,Audi A1
+102,1,Audi A2
+103,1,Audi A3
+104,1,Audi A4
+105,1,Audi A5
+106,1,Audi A6
+107,1,Audi A7
+108,1,Audi A8
+109,1,Audi E-tron
+110,1,Audi Q2
+111,1,Audi Q3
+112,1,Audi Q5
+113,1,Audi Q7
+114,1,Audi Q8
+115,1,Audi RS4
+116,1,Audi S2
+117,1,Audi S3
+118,1,Audi S4
+119,1,Audi S5
+120,1,Audi S6
+121,1,Audi S7
+122,1,Audi S8
+123,1,Audi TT
+124,1,Audi V8
+125,1,Audi Allroad
+126,1,Audi Cabrio
+127,1,Audi Cabriolet
+128,1,Audi Coupe
+129,1,Audi Quattro
+130,1,Audi 80
+131,1,Audi 90
+132,1,Audi 100
+133,1,Audi 4000
+200,1,Audi Citi
+201,1,Volkswagen Amarok
+202,1,Volkswagen Arteon
+203,1,Volkswagen Beetle
+204,1,Volkswagen Bora
+205,1,Volkswagen Caddy
+206,1,Volkswagen Caravelle
+207,1,Volkswagen Crafter
+208,1,Volkswagen Eos
+209,1,Volkswagen Fox
+210,1,Volkswagen Golf 1
+211,1,Volkswagen Golf 2
+212,1,Volkswagen Golf 3
+213,1,Volkswagen Golf 4
+214,1,Volkswagen Golf 5
+215,1,Volkswagen Golf 6
+216,1,Volkswagen Golf 7
+217,1,Volkswagen Golf Plus
+218,1,Volkswagen Golf Sportsvan
+219,1,Volkswagen Golf Variant
+220,1,Volkswagen Jetta
+221,1,Volkswagen Kafer
+222,1,Volkswagen LT
+223,1,Volkswagen Lupo
+224,1,Volkswagen Multivan
+225,1,Volkswagen Passat (B2)
+226,1,Volkswagen Passat (B3)
+227,1,Volkswagen Passat (B4)
+228,1,Volkswagen Passat (B5)
+229,1,Volkswagen Passat (B6)
+230,1,Volkswagen Passat (B7)
+231,1,Volkswagen Passat (B8)
+232,1,Volkswagen Passat Alltrack
+233,1,Volkswagen Passat CC
+234,1,Volkswagen Passat Variant
+235,1,Volkswagen Phaeton
+236,1,Volkswagen Polo
+237,1,Volkswagen Scirocco
+238,1,Volkswagen Sharan
+239,1,Volkswagen T-Cross
+240,1,Volkswagen T-Roc
+241,1,Volkswagen T2
+242,1,Volkswagen T3
+243,1,Volkswagen T4
+244,1,Volkswagen T5
+245,1,Volkswagen T6
+246,1,Volkswagen Taigo
+247,1,Volkswagen Taro
+248,1,Volkswagen Tiguan
+249,1,Volkswagen Touareg
+250,1,Volkswagen Touran
+251,1,Volkswagen Transporter
+252,1,Volkswagen Up!
+253,1,Volkswagen Vento
+300,1,Volkswagen Citi
+301,1,Mercedes A140
+302,1,Mercedes A150
+303,1,Mercedes A160
+304,1,Mercedes A170
+305,1,Mercedes A180
+306,1,Mercedes A200
+307,1,Mercedes A220
+308,1,Mercedes B150
+309,1,Mercedes B160
+310,1,Mercedes B170
+311,1,Mercedes B180
+312,1,Mercedes B200
+313,1,Mercedes B250
+314,1,Mercedes C180
+315,1,Mercedes C200
+316,1,Mercedes C220
+317,1,Mercedes C230
+318,1,Mercedes C250
+319,1,Mercedes C270
+320,1,Mercedes C280
+321,1,Mercedes C320
+322,1,Mercedes C350
+323,1,Mercedes C450 AMG
+324,1,Mercedes CE300
+325,1,Mercedes CL420
+326,1,Mercedes CL500
+327,1,Mercedes CL600
+328,1,Mercedes CL63 AMG
+329,1,Mercedes CLA180
+330,1,Mercedes CLA200
+331,1,Mercedes CLA220
+332,1,Mercedes CLA250
+333,1,Mercedes CLK
+334,1,Mercedes CLK200
+335,1,Mercedes CLK220
+336,1,Mercedes CLK230
+337,1,Mercedes CLK240
+338,1,Mercedes CLK270
+339,1,Mercedes CLK320
+340,1,Mercedes CLK430
+341,1,Mercedes CLS250
+342,1,Mercedes CLS320
+343,1,Mercedes CLS350
+344,1,Mercedes CLS400
+345,1,Mercedes CLS450
+346,1,Mercedes CLS500
+347,1,Mercedes E200
+348,1,Mercedes E220
+349,1,Mercedes E230
+350,1,Mercedes E240
+351,1,Mercedes E250
+352,1,Mercedes E260
+353,1,Mercedes E270
+354,1,Mercedes E280
+355,1,Mercedes E300
+356,1,Mercedes E320
+357,1,Mercedes E350
+358,1,Mercedes E36 AMG
+359,1,Mercedes E400
+360,1,Mercedes E55 AMG
+361,1,Mercedes G240
+362,1,Mercedes G300
+363,1,Mercedes G320
+364,1,Mercedes G350
+365,1,Mercedes G400
+366,1,Mercedes G500
+367,1,Mercedes G63 AMG
+368,1,Mercedes GL320
+369,1,Mercedes GL350
+370,1,Mercedes GL420
+371,1,Mercedes GL450
+372,1,Mercedes GL500
+373,1,Mercedes GLA200
+374,1,Mercedes GLA220
+375,1,Mercedes GLA250
+376,1,Mercedes GLC 200
+377,1,Mercedes GLC 220
+378,1,Mercedes GLC 250
+379,1,Mercedes GLC 350
+380,1,Mercedes GLC 43 AMG
+381,1,Mercedes GLE 250
+382,1,Mercedes GLE 350
+383,1,Mercedes GLE 43 AMG
+384,1,Mercedes GLK 220
+385,1,Mercedes GLK 250
+386,1,Mercedes GLK 320
+387,1,Mercedes GLK 350
+388,1,Mercedes GLS 350
+389,1,Mercedes GLS 400
+390,1,Mercedes GLS 450
+391,1,Mercedes ML250
+392,1,Mercedes ML270
+393,1,Mercedes ML280
+394,1,Mercedes ML300
+395,1,Mercedes ML320
+396,1,Mercedes ML350
+397,1,Mercedes ML400
+398,1,Mercedes ML420
+399,1,Mercedes ML450
+400,1,Mercedes ML500
+401,1,Mercedes ML55 AMG
+402,1,Mercedes ML63 AMG
+403,1,Mercedes R280
+404,1,Mercedes R320
+405,1,Mercedes R350
+406,1,Mercedes S280
+407,1,Mercedes S300
+408,1,Mercedes S320
+409,1,Mercedes S350
+410,1,Mercedes S400
+411,1,Mercedes S420
+412,1,Mercedes S430
+413,1,Mercedes S450
+414,1,Mercedes S500
+415,1,Mercedes S550
+416,1,Mercedes S560
+417,1,Mercedes S600
+418,1,Mercedes S63 AMG
+419,1,Mercedes SL300
+420,1,Mercedes SL500
+421,1,Mercedes SL55 AMG
+422,1,Mercedes SLK200
+423,1,Mercedes SLK230
+424,1,Mercedes V200
+425,1,Mercedes V220
+426,1,Mercedes V230
+427,1,Mercedes V250
+428,1,Mercedes V300
+429,1,Mercedes X250
+430,1,Mercedes 190
+431,1,Mercedes 200
+432,1,Mercedes 220
+433,1,Mercedes 230
+434,1,Mercedes 250
+435,1,Mercedes 260
+436,1,Mercedes 280
+437,1,Mercedes 300
+438,1,Mercedes 380
+439,1,Mercedes 450
+440,1,Mercedes 560
+441,1,Mercedes Citan
+442,1,Mercedes Sprinter
+443,1,Mercedes Vaneo
+444,1,Mercedes Viano
+445,1,Mercedes Vito
+500,1,Mercedes Citi
+501,1,Volvo 244
+502,1,Volvo 740
+503,1,Volvo 850
+504,1,Volvo 940
+505,1,Volvo 960
+506,1,Volvo C30
+507,1,Volvo C70
+508,1,Volvo S40
+509,1,Volvo S60
+510,1,Volvo S70
+511,1,Volvo S80
+512,1,Volvo S90
+513,1,Volvo V40
+514,1,Volvo V50
+515,1,Volvo V60
+516,1,Volvo V70
+517,1,Volvo V90
+518,1,Volvo XC 40
+519,1,Volvo XC 60
+520,1,Volvo XC 70
+521,1,Volvo XC 90
+600,1,Volvo Citi
+601,1,Ford Aerostar
+602,1,Ford B-Max
+603,1,Ford C-Max
+604,1,Ford Courier
+605,1,Ford Crown Victoria
+606,1,Ford Econoline
+607,1,Ford EcoSport
+608,1,Ford Escort
+609,1,Ford Explorer
+610,1,Ford F150
+611,1,Ford Fiesta
+612,1,Ford Flex
+613,1,Ford Focus
+614,1,Ford Fusion
+615,1,Ford Galaxy
+616,1,Ford KA
+617,1,Ford Kuga
+618,1,Ford Maverick
+619,1,Ford Mondeo
+620,1,Ford Mustang
+621,1,Ford Ranger
+622,1,Ford Raptor
+623,1,Ford S-Max
+624,1,Ford Scorpio
+625,1,Ford Sierra
+626,1,Ford Tourneo
+627,1,Ford Transit
+700,1,Ford Citi
+701,1,Opel Adam
+702,1,Opel Agila
+703,1,Opel Ampera
+704,1,Opel Antara
+705,1,Opel Ascona
+706,1,Opel Astra
+707,1,Opel Astra Van
+708,1,Opel Combo
+709,1,Opel Corsa
+710,1,Opel Crossland X
+711,1,Opel Frontera
+712,1,Opel Frontera Sport
+713,1,Opel Grandland X
+714,1,Opel Insignia
+715,1,Opel Kadet
+716,1,Opel Meriva
+717,1,Opel Mokka
+718,1,Opel Monterey
+719,1,Opel Movano
+720,1,Opel Omega
+721,1,Opel Signum
+722,1,Opel Sintra
+723,1,Opel Tigra
+724,1,Opel Vectra
+725,1,Opel Vectra-A
+726,1,Opel Vivaro
+727,1,Opel Zafira
+800,1,Opel Citi
+801,1,Toyota Auris
+802,1,Toyota Avensis
+803,1,Toyota Avensis Verso
+804,1,Toyota Aygo
+805,1,Toyota Camry
+806,1,Toyota Carina
+807,1,Toyota Celica
+808,1,Toyota Corolla
+809,1,Toyota Corolla Verso
+810,1,Toyota Dyna
+811,1,Toyota Hi-Lux
+812,1,Toyota Hiace
+813,1,Toyota Highlander
+814,1,Toyota Hilux
+815,1,Toyota IQ
+816,1,Toyota Land Cruiser
+817,1,Toyota MR 2
+818,1,Toyota Picnic
+819,1,Toyota Prius
+820,1,Toyota Prius+
+821,1,Toyota Proace
+822,1,Toyota RAV 4
+823,1,Toyota Sienna
+824,1,Toyota Starlet
+825,1,Toyota Supra
+826,1,Toyota Verso
+827,1,Toyota Verso-S
+828,1,Toyota Yaris
+900,1,Toyota Citi
+901,1,Jaguar E-Pace
+902,1,Jaguar F-Pace
+903,1,Jaguar F-Type
+904,1,Jaguar S-Type
+905,1,Jaguar X-Type
+906,1,Jaguar XE
+907,1,Jaguar XF
+908,1,Jaguar XJ
+909,1,Jaguar XJ40
+910,1,Jaguar XJS
+911,1,Jaguar XK
+1000,1,Jaguar Citi
+1001,1,Chevrolet Astro
+1002,1,Chevrolet Astro Van
+1003,1,Chevrolet Aveo
+1004,1,Chevrolet C1500
+1005,1,Chevrolet Camaro
+1006,1,Chevrolet Captiva
+1007,1,Chevrolet Chevy Van
+1008,1,Chevrolet Corvette
+1009,1,Chevrolet Cruze
+1010,1,Chevrolet Evanda
+1011,1,Chevrolet Express
+1012,1,Chevrolet Lacetti
+1013,1,Chevrolet Malibu
+1014,1,Chevrolet Matiz
+1015,1,Chevrolet Nubira
+1016,1,Chevrolet Orlando
+1017,1,Chevrolet Rezzo
+1018,1,Chevrolet Saburban
+1019,1,Chevrolet Silverado
+1020,1,Chevrolet Spark
+1021,1,Chevrolet Suburban
+1022,1,Chevrolet Tahoe
+1023,1,Chevrolet Trax
+1024,1,Chevrolet Impala
+1100,1,Chevrolet Citi
+1101,1,Porsche 911
+1102,1,Porsche 924
+1103,1,Porsche Boxster
+1104,1,Porsche Cayenne
+1105,1,Porsche Cayman
+1106,1,Porsche Macan
+1107,1,Porsche Panamera
+1200,1,Porsche Citi
+1201,1,Renault Avantime
+1202,1,Renault Captur
+1203,1,Renault Clio
+1204,1,Renault Espace
+1205,1,Renault Fluence
+1206,1,Renault Grand Espace
+1207,1,Renault Grand Scenic
+1208,1,Renault Kadjar
+1209,1,Renault Kangoo
+1210,1,Renault Koleos
+1211,1,Renault Laguna
+1212,1,Renault Latitude
+1213,1,Renault Mascott
+1214,1,Renault Master
+1215,1,Renault Megane
+1216,1,Renault Modus
+1217,1,Renault Talisman
+1218,1,Renault Scenic
+1219,1,Renault Trafic
+1220,1,Renault Twingo
+1221,1,Renault VEL Satis
+1300,1,Renault Citi
+1301,1,Subaru B9 Tribeca
+1302,1,Subaru Forester
+1303,1,Subaru Impreza
+1304,1,Subaru Justy
+1305,1,Subaru Legacy
+1306,1,Subaru Levorg
+1307,1,Subaru OUTBACK
+1308,1,Subaru XV
+1400,1,Subaru Citi
+1401,1,Mitsubishi Asx
+1402,1,Mitsubishi Canter
+1403,1,Mitsubishi Carisma
+1404,1,Mitsubishi Colt
+1405,1,Mitsubishi Eclipse
+1406,1,Mitsubishi Galant
+1407,1,Mitsubishi Grandis
+1408,1,Mitsubishi L 200
+1409,1,Mitsubishi L 300
+1410,1,Mitsubishi Lancer
+1411,1,Mitsubishi Lancer Evolution
+1412,1,Mitsubishi Montero
+1413,1,Mitsubishi Outlander
+1414,1,Mitsubishi Pajero
+1415,1,Mitsubishi Pajero Pinin
+1416,1,Mitsubishi Space Gear
+1417,1,Mitsubishi Space Runner
+1418,1,Mitsubishi Space Star
+1419,1,Mitsubishi Space Wagon
+1500,1,Mitsubishi Citi
+1501,1,Skoda Citigo
+1502,1,Skoda Fabia
+1503,1,Skoda Felicia
+1504,1,Skoda Kamiq
+1505,1,Skoda Karoq
+1506,1,Skoda Kodiaq
+1507,1,Skoda Octavia
+1508,1,Skoda Praktik
+1509,1,Skoda Rapid
+1510,1,Skoda Roomster
+1511,1,Skoda Scala
+1512,1,Skoda Superb
+1513,1,Skoda Yeti
+1600,1,Skoda Citi
+1601,1,Mazda CX-3
+1602,1,Mazda CX-5
+1603,1,Mazda CX-7
+1604,1,Mazda 323
+1605,1,Mazda 626
+1606,1,Mazda B2500
+1607,1,Mazda E 2200
+1608,1,Mazda Mazda2
+1609,1,Mazda Mazda3
+1610,1,Mazda Mazda5
+1611,1,Mazda Mazda6
+1612,1,Mazda MPV
+1613,1,Mazda MX
+1614,1,Mazda MX-6
+1615,1,Mazda Premacy
+1616,1,Mazda Rx-8
+1617,1,Mazda Xedos 6
+1700,1,Mazda Citi
+1701,1,Hyundai Accent
+1702,1,Hyundai Coupe
+1703,1,Hyundai Elantra
+1704,1,Hyundai Galloper
+1705,1,Hyundai Genesis
+1706,1,Hyundai Getz
+1707,1,Hyundai H-1
+1708,1,Hyundai H-1 Starex
+1709,1,Hyundai H1
+1710,1,Hyundai H100
+1711,1,Hyundai H200
+1712,1,Hyundai i10
+1713,1,Hyundai i20
+1714,1,Hyundai I30
+1715,1,Hyundai i40
+1716,1,Hyundai Ioniq
+1717,1,Hyundai ix20
+1718,1,Hyundai ix35
+1719,1,Hyundai ix55
+1720,1,Hyundai Kona
+1721,1,Hyundai Matrix
+1722,1,Hyundai Santa FE
+1723,1,Hyundai Sonata
+1724,1,Hyundai Terracan
+1725,1,Hyundai Tucson
+1800,1,Hyundai Citi
+1801,1,Kia Carens
+1802,1,Kia Carnival
+1803,1,Kia Ceed
+1804,1,Kia Cerato
+1805,1,Kia Magentis
+1806,1,Kia Optima
+1807,1,Kia Picanto
+1808,1,Kia RIO
+1809,1,Kia Shuma
+1810,1,Kia Sorento
+1811,1,Kia Soul
+1812,1,Kia Sportage
+1813,1,Kia Stonic
+1814,1,Kia Xceed
+1900,1,Honda Accord
+1901,1,Honda Aerodeck
+1902,1,Honda Civic
+1903,1,Honda Cr-v
+1904,1,Honda FR-V
+1905,1,Honda Hr-v
+1906,1,Honda Jazz
+1907,1,Honda Legend
+1908,1,Honda Logo
+1909,1,Honda Prelude
+1910,1,Honda Shuttle
+1911,1,Honda Stream
+2000,1,Honda Citi
+2001,1,Nissan Almera
+2002,1,Nissan Almera Tino
+2003,1,Nissan Juke
+2004,1,Nissan King Cab
+2005,1,Nissan Leaf
+2006,1,Nissan Micra
+2007,1,Nissan Murano
+2008,1,Nissan Navara
+2009,1,Nissan Note
+2010,1,Nissan NV200
+2011,1,Nissan NV300
+2012,1,Nissan Pathfinder
+2013,1,Nissan Patrol
+2014,1,Nissan Pick UP
+2015,1,Nissan Primastar
+2016,1,Nissan Primera
+2017,1,Nissan Pulsar
+2018,1,Nissan Qashqai
+2019,1,Nissan Terrano
+2020,1,Nissan Terrano II
+2021,1,Nissan Tiida
+2022,1,Nissan Tino
+2023,1,Nissan X-Trail
+2100,1,Nissan Citi
+2101,1,Lexus CT
+2102,1,Lexus ES
+2103,1,Lexus GS
+2104,1,Lexus GX
+2105,1,Lexus IS
+2106,1,Lexus LS
+2107,1,Lexus LX
+2108,1,Lexus NX
+2109,1,Lexus RC
+2110,1,Lexus RC F
+2111,1,Lexus RX
+2112,1,Lexus SC
+2113,1,Lexus UX
+2200,1,Lexus Citi
+2201,1,Peugeot 1007
+2202,1,Peugeot 107
+2203,1,Peugeot 2008
+2204,1,Peugeot 205
+2205,1,Peugeot 206
+2206,1,Peugeot 207
+2207,1,Peugeot 208
+2208,1,Peugeot 3008
+2209,1,Peugeot 306
+2210,1,Peugeot 307
+2211,1,Peugeot 308
+2212,1,Peugeot 4007
+2213,1,Peugeot 406
+2214,1,Peugeot 407
+2215,1,Peugeot 5008
+2216,1,Peugeot 508
+2217,1,Peugeot 605
+2218,1,Peugeot 607
+2219,1,Peugeot 807
+2220,1,Peugeot Bipper
+2221,1,Peugeot Boxer
+2222,1,Peugeot Expert
+2223,1,Peugeot Partner
+2224,1,Peugeot RCZ
+2225,1,Peugeot Rifter
+2226,1,Peugeot Traveller
+2301,1,Peugeot Citi

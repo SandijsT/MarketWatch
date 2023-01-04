@@ -1,7 +1,7 @@
-FuelTypeId,LanguageId,Description,DisplayOrder
-1,1,Nezinams,1
-2,1,benz?ns,1
-3,1,benz?ns/g?ze,1
-4,1,d?zelis,1
-5,1,hybrid,1
-6,1,elektriskais,1
+﻿FuelTypeId,LanguageId,Description
+1,1,Nezinams
+2,1,benzīns
+3,1,benzīns/gāze
+4,1,dīzelis
+5,1,hybrid
+6,1,elektriskais
