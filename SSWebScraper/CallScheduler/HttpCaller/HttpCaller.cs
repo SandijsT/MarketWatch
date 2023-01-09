@@ -4,11 +4,11 @@ namespace CallScheduler.HttpCaller
 {
     public static class HttpCaller
     {
-        static async Task<VehicleResponse> ScrapeAsync(string path, VehicleRequest vehicleRequest)
+        static async Task<VehicleResponse> ScrapeAsync(VehicleRequest vehicleRequest)
         {
             using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri("https://localhost:44333/");
+                client.BaseAddress = new Uri("https://localhost:7101/");
                 var response = await client.PostAsJsonAsync("api/Scraper/ScrapePosts", vehicleRequest);
 
                 var vehicleResponse = new VehicleResponse();
@@ -20,15 +20,13 @@ namespace CallScheduler.HttpCaller
             }
         }
 
-        public static async Task RunAsync(List<VehicleRequest> vehicleRequest)
+        public static async Task RunScraperAsync(List<VehicleRequest> vehicleRequest)
         {
             try
             {
-                var url = new Uri($"https://localhost:44333/api/Scraper/ScrapePosts");
-
                 foreach(var request in vehicleRequest)
                 {
-                    _ = await ScrapeAsync(url.OriginalString, request).ConfigureAwait(false);
+                    _ = await ScrapeAsync(request).ConfigureAwait(false);
                 };
             }
             catch (Exception e)
@@ -36,6 +34,24 @@ namespace CallScheduler.HttpCaller
                 Console.WriteLine(e.Message);
             }
             return;
+        }
+
+        public static async Task RateAsync()
+        {
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("https://localhost:7172/");
+                var response = await client.PostAsync("api/Rating/CalculateAverage", null);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    return;
+                }
+                else
+                {
+                    throw new HttpRequestException();
+                }
+            }
         }
     }
 }

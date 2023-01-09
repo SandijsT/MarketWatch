@@ -26,7 +26,7 @@ namespace CallScheduler.HttpCaller.CallEnrichment
 
             if (vehicleRequests != null)
             {
-                HttpCaller.RunAsync(vehicleRequests).GetAwaiter().GetResult();
+                HttpCaller.RunScraperAsync(vehicleRequests).GetAwaiter().GetResult();
             }
 
             return Task.CompletedTask;

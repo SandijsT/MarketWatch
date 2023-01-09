@@ -1,4 +1,5 @@
 ﻿using DatabaseLibrary.DataTransferObjects;
+using DatabaseLibrary.Models;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -58,7 +59,7 @@ namespace DatabaseLibrary
 
         public static List<RatingValuesDTO> GetRatingValues(SqlConnection connection, params object[] parameterValues)
         {
-            var cmdText = $"SELECT* FROM dbo.GetRatingValues({parameterValues[0]}, {parameterValues[1]}, {parameterValues[2]}, {parameterValues[3]}, {parameterValues[4]}, {parameterValues[5]})";
+            var cmdText = $"SELECT * FROM dbo.GetRatingValues({parameterValues[0]}, {parameterValues[1]}, {parameterValues[2]}, {parameterValues[3]}, {parameterValues[4]}, {parameterValues[5]})";
             var command = new SqlCommand(cmdText, connection);
 
             if (connection.State == ConnectionState.Closed)
@@ -76,6 +77,44 @@ namespace DatabaseLibrary
                 {
                     ratingValuesDTO.Price = Convert.ToDecimal(reader.GetValue(0));
                     ratingValuesDTO.Mileage = Convert.ToInt32(reader.GetValue(1));
+                }
+                result.Add(ratingValuesDTO);
+            }
+
+            reader.Close();
+            connection.Close();
+
+            return result;
+        }
+
+        public static List<Rating> GetRatingsByModelId(SqlConnection connection, params object[] parameterValues)
+        {
+            var cmdText = $"SELECT* FROM dbo.GetRatingsFromModelId({parameterValues[0]})";
+            var command = new SqlCommand(cmdText, connection);
+
+            if (connection.State == ConnectionState.Closed)
+            {
+                connection.Open();
+            }
+
+            var reader = command.ExecuteReader();
+
+            List<Rating> result = new List<Rating>();
+            while (reader.Read())
+            {
+                Rating ratingValuesDTO = new Rating();
+                if (reader.GetValue(0) is not DBNull && reader.GetValue(1) is not DBNull)
+                {
+                    ratingValuesDTO.RatingId = Convert.ToInt32(reader.GetValue(0));
+                    ratingValuesDTO.SampleCount = Convert.ToInt32(reader.GetValue(1));
+                    ratingValuesDTO.AveragePrice = Convert.ToDecimal(reader.GetValue(2));
+                    ratingValuesDTO.AverageMileage = Convert.ToInt32(reader.GetValue(3));
+                    ratingValuesDTO.ModelId = Convert.ToInt32(reader.GetValue(4));
+                    ratingValuesDTO.EngineDisplacementTypeId = Convert.ToInt32(reader.GetValue(5));
+                    ratingValuesDTO.TransmissionTypeId = Convert.ToInt32(reader.GetValue(6));
+                    ratingValuesDTO.FuelTypeId = Convert.ToInt32(reader.GetValue(7));
+                    ratingValuesDTO.BodyTypeId = Convert.ToInt32(reader.GetValue(8));
+                    ratingValuesDTO.StorageDate = Convert.ToDateTime(reader.GetValue(9));
                 }
                 result.Add(ratingValuesDTO);
             }

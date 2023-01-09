@@ -1,4 +1,5 @@
 ﻿using DatabaseLibrary.DataTransferObjects;
+using DatabaseLibrary.Models;
 
 namespace DatabaseLibrary
 {
@@ -56,6 +57,14 @@ namespace DatabaseLibrary
                 fuelTypeId,
                 bodyTypeId,
                 categoryId);
+
+            return result;
+        }
+
+        public List<Rating> GetRatingsByModelId(int modelId)
+        {
+            using var dbcResource = DbConnector.DbResourceConnection;
+            var result = SqlHelper.GetRatingsByModelId(dbcResource, modelId);
 
             return result;
         }

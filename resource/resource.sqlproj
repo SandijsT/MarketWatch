@@ -84,6 +84,7 @@
     <Build Include="Tables\DataTables\Rating.sql" />
     <Build Include="Tabled-Function\GetRatingValues.sql" />
     <Build Include="Tabled-Function\GetRatingDistinctCombinations.sql" />
+    <Build Include="Tabled-Function\GetRatingsFromModelId.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="resource.publish.xml" />

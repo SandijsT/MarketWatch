@@ -104,7 +104,7 @@ namespace SSWebScraper.Controllers
             return response;
         }
 
-        private List<string> ParseLinks(string html)
+        public List<string> ParseLinks(string html)
         {
             HtmlDocument htmlDoc = new HtmlDocument();
             htmlDoc.LoadHtml(html);
@@ -146,7 +146,7 @@ namespace SSWebScraper.Controllers
             return (postHTML, postText);
         }
 
-        private PostObjectMappings ParsePost(string html, string link)
+        public PostObjectMappings ParsePost(string html, string link)
         {
             try
             {
